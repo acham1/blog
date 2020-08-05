@@ -52,5 +52,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - Makefile
-  - CNAME
   - README.md
