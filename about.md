@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some topics are so interesting, but I have a hard time following through on learning. I hope this blog motivates me to be diligent, sharing some cool snippets along the way.
+Some topics are so interesting, but I struggle to follow through on learning. 
+
+I hope this blog keeps me to diligent and honest, sharing some cool snippets along the way.
