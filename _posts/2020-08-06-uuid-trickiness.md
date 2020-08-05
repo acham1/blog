@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A UUID Pitfall
+title: UUID Trickiness
 date: 2020-08-05 05:36:14 -0700
 categories: uuid other
 ---
