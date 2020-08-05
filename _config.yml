@@ -52,4 +52,4 @@ exclude:
   - vendor/ruby/
   - Makefile
   - CNAME
-  - README
+  - README.md
