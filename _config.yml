@@ -15,16 +15,19 @@ description: My blog and sandbox.
 baseurl: /
 url: https://blog.alanch.am
 
+# Display
+show_excerpts: true
+
 # Organization
-topics:
+epics:
   - display: Linear Algebra
-    category: linear-algebra
+    tag: linear-algebra
   - display: UNIX
-    category: unix
+    tag: unix
   - display: Domain-Driven Design
-    category: domain-driven-design
+    tag: domain-driven-design
   - display: Other
-    category: other
+    tag: other
 
 # Social
 twitter_username: acham1

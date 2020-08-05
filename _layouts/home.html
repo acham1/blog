@@ -9,11 +9,11 @@ layout: default
 
   {{ content }}
 
-  {%- for topic in site.topics -%}
-  <h3 class="post-list-heading">{{topic.display}}</h3>
+  {%- for epic in site.epics -%}
+  <h3 class="post-list-heading">{{epic.display}}</h3>
   <ul class="post-list">
     {%- for post in site.posts -%}
-    {%- if post.categories contains topic.category -%}
+    {%- if post.tags contains epic.tag -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
