@@ -1,4 +1,3 @@
 .PHONY: build
 build:
-	jekyll build -d docs
-
+	bundle exec jekyll build -d docs
