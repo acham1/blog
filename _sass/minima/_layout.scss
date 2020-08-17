@@ -229,6 +229,12 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  h1 {
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
   h2 {
     @include relative-font-size(2);
 
@@ -251,5 +257,10 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+  }
+
+  .tagline {
+    color: $grey-color;
+    font-style: italic;
   }
 }

@@ -139,6 +139,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-content { margin-bottom: 30px; }
 
+.post-content h1 { border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid; }
+
 .post-content h2 { font-size: 32px; }
 
 @media screen and (max-width: 800px) { .post-content h2 { font-size: 28px; } }
@@ -150,6 +152,8 @@ table td { border: 1px solid #e8e8e8; }
 .post-content h4 { font-size: 20px; }
 
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
+
+.post-content .tagline { color: #828282; font-style: italic; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
