@@ -3,7 +3,7 @@ layout: post
 title: Being Careful With UUID Comparisons
 date: 2020-08-16 09:57:14 -0700
 excerpt: They're powerful and easy to use, but be careful when comparing their string representations.
-tags: uuid other
+tags: uuid idfa aaid golang other
 ---
 
 <span class='tagline'>{{ page.excerpt }}</span>
@@ -54,7 +54,7 @@ func Equals(uuidA string, uuidB string) (bool, error) {
 }
 {% endhighlight golang %}
 
-If, say, you were implementing an opt-out filter to remove device ids from your targeted advertising, then you might get some false negatives by surprise! For example, a candidate UUID `EA7583CD-A667-48BC-B806-42ECB2B48606` would not match the UUID in your filter blacklist `ea7583cd-a667-48bc-b806-42ecb2b48606`, although they represent the same 128-bit UUID.
+If, say, you were implementing an opt-out filter to remove device ids from your targeted advertising campaign, then you might get some false negatives by surprise! For example, a candidate UUID `EA7583CD-A667-48BC-B806-42ECB2B48606` would not match the UUID in your filter blacklist `ea7583cd-a667-48bc-b806-42ecb2b48606`, although they represent the same 128-bit UUID.
 
 # Some Alternatives
 
