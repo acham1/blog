@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dummy Post
-date: 2020-08-19 00:15:00 -0700
+date: 2020-08-19 00:09:00 -0700
 tags: jekyll ruby other liquid
 ---
 
