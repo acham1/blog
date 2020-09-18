@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spot the Bug: Golang Hashes"
-date: 2020-09-18 02:41:14 -0700
+date: 2020-09-18 02:45:14 -0700
 excerpt: Suppose we want to compute the md5, sha1, and sha256 sums for some string "Foo Bar". What's wrong with this routine?
 tags: golang other md5 sha1 sha256 hash
 ---
