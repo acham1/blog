@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-09-18T02:39:22-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;They’re powerful and easy to use, but be careful when comparing their string representations.&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-09-18T02:42:05-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T02:41:14-07:00</published><updated>2020-09-18T02:41:14-07:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Suppose we want to compute the md5, sha1, and sha256 sums of some string “Foo Bar”. What’s wrong with this routine?&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
+
+&lt;p&gt;Golang gives us an interface type &lt;a href=&quot;https://golang.org/pkg/hash/&quot;&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hash.Hash&lt;/code&gt; &lt;/a&gt; to be:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the common interface implemented by all hash functions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, the packages 
+&lt;a href=&quot;https://golang.org/pkg/crypto/md5/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crypto/md5&lt;/code&gt;&lt;/a&gt;, 
+&lt;a href=&quot;https://golang.org/pkg/crypto/sha256/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crypto/sha1&lt;/code&gt; &lt;/a&gt;, and 
+&lt;a href=&quot;https://golang.org/pkg/crypto/sha256/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crypto/sha256&lt;/code&gt; &lt;/a&gt; each define an implementation of that interface.&lt;/p&gt;
+
+&lt;p&gt;In the following example, we invoke the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum&lt;/code&gt; method on that interface to hash a string, “Foo Bar”, three ways. But something is wrong.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;crypto/md5&quot;&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha1&quot;&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha256&quot;&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;// convert the demo input to a byte slice&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Foo Bar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;c&quot;&gt;// calculate the hashes&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;c&quot;&gt;// print the hex-encoded hashes&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here is the output:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;↳ go run main.go
+466f6f20426172d41d8cd98f00b204e9800998ecf8427e
+466f6f20426172da39a3ee5e6b4b0d3255bfef95601890afd80709
+466f6f20426172e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;hint&quot;&gt;Hint&lt;/h1&gt;
+
+&lt;p&gt;Notice the prefix &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;466f6f20426172&lt;/code&gt; in each of the hash outputs. You might be surprised to find that the three hashes all coincidentally prepend the same byte sequence. That’s because this is no coincidence at all!&lt;/p&gt;
+
+&lt;p&gt;If we decode the hex, we see that it actually holds the hash input “Foo Bar”! That can’t be right.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;↳ &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;466f6f20426172 | xxd &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; | xxd
+00000000: 466f 6f20 4261 72                        Foo Bar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;answer&quot;&gt;Answer&lt;/h1&gt;
+
+&lt;p&gt;Let’s consult the docs for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hash.Hash&lt;/code&gt; interface:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hash&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;// Write (via the embedded io.Writer interface) adds more data to the running hash.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;// It never returns an error.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Writer&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;// Sum appends the current hash to b and returns the resulting slice.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;// It does not change the underlying hash state.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;// Reset resets the Hash to its initial state.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Reset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;// Size returns the number of bytes Sum will return.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;// BlockSize returns the hash's underlying block size.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;// The Write method must be able to accept any amount&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;// of data, but it may operate more efficiently if all writes&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;// are a multiple of the block size.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;BlockSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;We learn that the receiver method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum&lt;/code&gt; does not do what one might intuit (or, at least &lt;em&gt;I&lt;/em&gt; was surprised). The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum&lt;/code&gt; method just concatenates its argument with a running hash of its internal buffer contents.&lt;/p&gt;
+
+&lt;p&gt;So, the prefix is the hex-encoded “Foo Bar” input. The tail comes from the initial state of the running hash, i.e. the hash of an empty byte sequence.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Prefix&lt;/th&gt;
+      &lt;th&gt;Blank Hash&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;md5&lt;/td&gt;
+      &lt;td&gt;466f6f20426172&lt;/td&gt;
+      &lt;td&gt;d41d8cd98f00b204e9800998ecf8427e&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sha1&lt;/td&gt;
+      &lt;td&gt;466f6f20426172&lt;/td&gt;
+      &lt;td&gt;da39a3ee5e6b4b0d3255bfef95601890afd80709&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sha256&lt;/td&gt;
+      &lt;td&gt;466f6f20426172&lt;/td&gt;
+      &lt;td&gt;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;How do we fix the example?&lt;/p&gt;
+
+&lt;h1 id=&quot;correct-usage&quot;&gt;Correct Usage&lt;/h1&gt;
+
+&lt;p&gt;We can use the embedded &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;io.Writer&lt;/code&gt; methods to push the input string onto the hash’s internal buffer, and set the prefix to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil&lt;/code&gt;. Alternatively, just use one of the various convenience methods provided in the packages.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;crypto/md5&quot;&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha1&quot;&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha256&quot;&lt;/span&gt;
+	&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;// convert the demo input to a byte slice&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Foo Bar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;c&quot;&gt;// calculate the hashes&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;ha&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;ha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;n&quot;&gt;hb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;hb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;n&quot;&gt;hc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;hc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;c&quot;&gt;// alternate: calculate the hashes&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;alta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;altb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;altc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+	&lt;span class=&quot;c&quot;&gt;// print the hex-encoded hashes&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;altb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;altc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;If you’re a meticulous, hawk-eyed reader of the docs, then you’ll likely have found this exercise pretty silly. But I sometimes tend to skim the details, especially when the function names look &lt;em&gt;so&lt;/em&gt; very self-explanatory and simple. For example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum([]byte) []byte&lt;/code&gt; on a hash interface.&lt;/p&gt;
+
+&lt;p&gt;In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.&lt;/p&gt;</content><author><name></name></author><category term="golang" /><category term="other" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html">Suppose we want to compute the md5, sha1, and sha256 sums of some string &quot;Foo Bar&quot;. What's wrong with this routine?</summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;They’re powerful and easy to use, but be careful when comparing their string representations.&lt;/span&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
 &lt;p&gt;UUIDs are useful – the id space is large enough that, if ids are generated by some standard algorithm, they are effectively &lt;em&gt;globally&lt;/em&gt; unique. In AdTech, for example, mobile device identifiers are commonly implemented as UUID. They can then be guaranteed unique across all devices but still be reset locally without updating some remote, central registry.&lt;/p&gt;
