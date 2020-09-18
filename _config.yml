@@ -20,12 +20,14 @@ show_excerpts: true
 
 # Organization
 epics:
-  - display: Linear Algebra
-    tag: linear-algebra
-  - display: UNIX
-    tag: unix
-  - display: Domain-Driven Design
-    tag: domain-driven-design
+  # - display: Linear Algebra
+  #   tag: linear-algebra
+  # - display: UNIX
+  #   tag: unix
+  # - display: Domain-Driven Design
+  #   tag: domain-driven-design
+  - display: Structure and Interpretation of Computer Programs
+    tag: sicp
   - display: Other
     tag: other
 
