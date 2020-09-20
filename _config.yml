@@ -28,6 +28,10 @@ epics:
   #   tag: domain-driven-design
   - display: Structure and Interpretation of Computer Programs (SICP)
     tag: sicp
+  - display: Code
+    tag: code
+  - display: Woodworking
+    tag: woodworking
   - display: Other
     tag: other
 
