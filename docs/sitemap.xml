@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://blog.alanch.am/2020/08/05/welcome.html</loc>
+<lastmod>2020-08-05T01:58:14-07:00</lastmod>
+</url>
+<url>
+<loc>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html</loc>
+<lastmod>2020-08-16T09:57:14-07:00</lastmod>
+</url>
+<url>
+<loc>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html</loc>
+<lastmod>2020-09-18T02:45:14-07:00</lastmod>
+</url>
+<url>
+<loc>https://blog.alanch.am/2020/09/20/wood-cube.html</loc>
+<lastmod>2020-09-20T03:24:30-07:00</lastmod>
+</url>
+<url>
+<loc>https://blog.alanch.am/about/</loc>
+</url>
+<url>
+<loc>https://blog.alanch.am/</loc>
+</url>
+</urlset>
