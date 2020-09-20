@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-09-18T12:17:49-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T02:45:14-07:00</published><updated>2020-09-18T02:45:14-07:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Suppose we want to compute the md5, sha1, and sha256 sums for some string “Foo Bar”. What’s wrong with this routine?&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-09-20T03:18:32-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">From Chair to Hair Tie</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair Tie" /><published>2020-09-20T03:18:00-07:00</published><updated>2020-09-20T03:18:00-07:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Carving up a big old chair into smaller goodies.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I had some 70s era chairs from a garage sale purchase, just a couple months ago. But they were in poor condition; for example, the leather had not been conditioned, the dry straps cracking or snapped in places. They hogged space in the shop (garage) too, just gathering sawdust.&lt;/p&gt;
+
+&lt;p&gt;I bought them as they were cheap and made of good mahogany. For most of my past projects I’ve mainly stuck to cheaper, construction grade redwood or pine, so this was a happy find.&lt;/p&gt;
+
+&lt;p&gt;Finally, today I tried an simple mini-project with reusing the wood.&lt;/p&gt;
+
+&lt;h1 id=&quot;before&quot;&gt;Before&lt;/h1&gt;
+
+&lt;p&gt;This poor fellow was selected for today’s harvest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/chairs.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ouch&quot;&gt;Ouch&lt;/h1&gt;
+
+&lt;p&gt;The leather was labor intensive to remove cleanly due to the old nails. A few times, the nail head broke off, and I’d dig the decapitated nail stalk out of the wood.&lt;/p&gt;
+
+&lt;p&gt;Unwisely, I also left some loose nails on the floor, and I stepped on one. It pierced through the sole of my shoes, jabbing the pad of my foot, but I stopped before it drew blood.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/foot.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;leather-scraps&quot;&gt;Leather Scraps&lt;/h1&gt;
+
+&lt;p&gt;Some leather scraps came out of the disassembly too, but those will probably go out in the next trash collection. They’re not in great condition.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/leather-scraps.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;salvaged-lumber&quot;&gt;Salvaged Lumber&lt;/h1&gt;
+
+&lt;p&gt;The boards were pretty skinny, but that’s really ok. I want to start focusing on smaller palm-sized projects anyway – things that I can start and finish in one weekend without ado.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/chopped-chairs.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;cubes&quot;&gt;Cubes&lt;/h1&gt;
+
+&lt;p&gt;One of the cross bars from the chair seat was riddled with snapped nails I couldn’t remove. So I milled out a short three-inch segment of clear wood between the nails.&lt;/p&gt;
+
+&lt;p&gt;After some fiddling with the band saw and sand paper, these two cuties came about, about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&quot; x 1&quot;&lt;/code&gt; in size.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/cubes.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;hair-ties&quot;&gt;Hair Ties&lt;/h1&gt;
+
+&lt;p&gt;It became a little hair tie with the help of some butcher block conditioner (it was what I had) and an elastic hair tie (donated by my roommate).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/hair-tie.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h1&gt;
+
+&lt;p&gt;I’d like to try this again, with some lessons learned:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use a lighter finish to preserve the wood’s natural color without darkening it so much.&lt;/li&gt;
+  &lt;li&gt;Use one cube per hair-tie. Two is unwieldy and makes the elastic band hard to “double-up”.&lt;/li&gt;
+  &lt;li&gt;Use a larger board to start, because running the saw for tiny objects like this can be scary. Fingers get close to blades.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Compared to home furniture, I had fun making these basic cubes; plus I now have a proof of concept for reusing lumber from the chairs.&lt;/p&gt;
+
+&lt;p&gt;I look forward to trying the cubes again soon, and then moving on to other project ideas with the salvaged lumber.&lt;/p&gt;</content><author><name></name></author><category term="woodworking" /><summary type="html">Carving up a big old chair into smaller goodies.</summary></entry><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T02:45:14-07:00</published><updated>2020-09-18T02:45:14-07:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Suppose we want to compute the md5, sha1, and sha256 sums for some string “Foo Bar”. What’s wrong with this routine?&lt;/span&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
 
@@ -160,7 +220,7 @@
 
 &lt;p&gt;If you’re a meticulous, hawk-eyed reader of the docs, then you’ll likely have found this exercise pretty silly. But I sometimes tend to skim the details, especially when the function names look &lt;em&gt;so&lt;/em&gt; very self-explanatory and simple. For example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum([]byte) []byte&lt;/code&gt; on a hash interface.&lt;/p&gt;
 
-&lt;p&gt;In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.&lt;/p&gt;</content><author><name></name></author><category term="golang" /><category term="other" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html">Suppose we want to compute the md5, sha1, and sha256 sums for some string &quot;Foo Bar&quot;. What's wrong with this routine?</summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;They’re powerful and easy to use, but be careful when comparing their string representations.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.&lt;/p&gt;</content><author><name></name></author><category term="golang" /><category term="code" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html">Suppose we want to compute the md5, sha1, and sha256 sums for some string &quot;Foo Bar&quot;. What's wrong with this routine?</summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;They’re powerful and easy to use, but be careful when comparing their string representations.&lt;/span&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
 &lt;p&gt;UUIDs are useful – the id space is large enough that, if ids are generated by some standard algorithm, they are effectively &lt;em&gt;globally&lt;/em&gt; unique. In AdTech, for example, mobile device identifiers are commonly implemented as UUID. They can then be guaranteed unique across all devices but still be reset locally without updating some remote, central registry.&lt;/p&gt;
@@ -257,4 +317,4 @@
 
 &lt;p&gt;In practice, if the UUIDs you process are sourced from the same origin, they’ll mostly likely be consistent in representation (exclusively using upper case or exclusively using lower case). So even if you goof and introduce a potential bug through a naive UUID comparison, you would probably get away unscathed.&lt;/p&gt;
 
-&lt;p&gt;But if the UUIDs you process are sourced from multiple origins, then handling the UUIDs more robustly just might save your butt. After all, one cannot take for granted that a representation being valid and canonical means there are no practical variations to be checked and controlled against.&lt;/p&gt;</content><author><name></name></author><category term="uuid" /><category term="idfa" /><category term="aaid" /><category term="golang" /><category term="other" /><summary type="html">They're powerful and easy to use, but be careful when comparing their string representations.</summary></entry><entry><title type="html">Welcome!</title><link href="https://blog.alanch.am/2020/08/05/welcome.html" rel="alternate" type="text/html" title="Welcome!" /><published>2020-08-05T01:58:14-07:00</published><updated>2020-08-05T01:58:14-07:00</updated><id>https://blog.alanch.am/2020/08/05/welcome</id><content type="html" xml:base="https://blog.alanch.am/2020/08/05/welcome.html">&lt;p&gt;Hello world! Let’s have some fun – Liquid templating looks pretty neat : )&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="ruby" /><category term="other" /><category term="liquid" /><summary type="html">Hello world! Let’s have some fun – Liquid templating looks pretty neat : )</summary></entry></feed>
+&lt;p&gt;But if the UUIDs you process are sourced from multiple origins, then handling the UUIDs more robustly just might save your butt. After all, one cannot take for granted that a representation being valid and canonical means there are no practical variations to be checked and controlled against.&lt;/p&gt;</content><author><name></name></author><category term="uuid" /><category term="idfa" /><category term="aaid" /><category term="golang" /><category term="code" /><summary type="html">They're powerful and easy to use, but be careful when comparing their string representations.</summary></entry><entry><title type="html">Welcome!</title><link href="https://blog.alanch.am/2020/08/05/welcome.html" rel="alternate" type="text/html" title="Welcome!" /><published>2020-08-05T01:58:14-07:00</published><updated>2020-08-05T01:58:14-07:00</updated><id>https://blog.alanch.am/2020/08/05/welcome</id><content type="html" xml:base="https://blog.alanch.am/2020/08/05/welcome.html">&lt;p&gt;Hello world! Let’s have some fun – Liquid templating looks pretty neat : )&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="ruby" /><category term="other" /><category term="liquid" /><summary type="html">Hello world! Let’s have some fun – Liquid templating looks pretty neat : )</summary></entry></feed>

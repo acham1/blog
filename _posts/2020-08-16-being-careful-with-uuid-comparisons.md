@@ -3,7 +3,7 @@ layout: post
 title: Being Careful With UUID Comparisons
 date: 2020-08-16 09:57:14 -0700
 excerpt: They're powerful and easy to use, but be careful when comparing their string representations.
-tags: uuid idfa aaid golang other
+tags: uuid idfa aaid golang code
 ---
 
 <span class='tagline'>{{ page.excerpt }}</span>
