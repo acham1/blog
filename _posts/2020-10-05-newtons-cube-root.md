@@ -3,7 +3,7 @@ layout: post
 title: Cube Roots by Newton's Method in Lisp
 date: 2020-10-05 05:39:00 -0700
 excerpt: Using basic elements of programming to compute cube roots.
-tags: sicp
+tags: sicp lisp
 ---
 
 <span class='tagline'>{{ page.excerpt }}</span>
