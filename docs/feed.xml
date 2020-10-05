@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-09-20T04:03:37-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">From Chair to Hair (Tie)</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair (Tie)" /><published>2020-09-20T03:24:30-07:00</published><updated>2020-09-20T03:24:30-07:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Carving up a big old chair into smaller goodies.&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-10-05T03:02:04-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">45-Degree Drill Press Jig</title><link href="https://blog.alanch.am/2020/10/05/45-jig.html" rel="alternate" type="text/html" title="45-Degree Drill Press Jig" /><published>2020-10-05T03:02:00-07:00</published><updated>2020-10-05T03:02:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/45-jig</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/45-jig.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;An incremental improvement in safety and efficiency when drilling angled holes.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;As I ramped up production on the hair ties, I began to think about improving my process. The wood cubes are small pieces, difficult to control firmly between fingers in the absence of leverage.&lt;/p&gt;
+
+&lt;p&gt;Once it’s rough-cut from the lumber stock, it’s too small (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.75&quot; x 0.75&quot; x 0.75&quot;&lt;/code&gt; for the mini size) to run through the table or miter saws to make finer size adjustments – by hand, anyway.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The Problem&lt;/h1&gt;
+
+&lt;p&gt;Likewise, it’s hard to fix the cube at a 45-degree angle under the drill press, to bore a hole between two adjacent faces. Here were some of my issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Holding the cube by vise would be safest, but:
+    &lt;ul&gt;
+      &lt;li&gt;too slow and unwieldy to load and unload.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Holding the cube by hand is quicker, but:
+    &lt;ul&gt;
+      &lt;li&gt;fingers get dangerously close to rotating bit,&lt;/li&gt;
+      &lt;li&gt;it’s hard to keep the eyeball-estimated angle consistent between holes,&lt;/li&gt;
+      &lt;li&gt;and it’s hard to keep the cube stable against the weight of the bit.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-jig&quot;&gt;The Jig&lt;/h1&gt;
+
+&lt;p&gt;I had some leftover redwood stock already beveled to 45-degrees from a previous french cleat project. By chopping off a few inches and gluing a short lip at the base of the slope, we get a simple jig.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/45-jig/45-jig.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The slope and the lip support the cube, resulting in a compromise that makes it slightly safer and easier to drill the holes, without making it awkward to load and unload.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/45-jig/45-jig-press.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-outcome&quot;&gt;The Outcome&lt;/h1&gt;
+
+&lt;p&gt;I’ll still need a more serious jig to do more precise holes at scale, but this was all right for now. I was able to produce another small batch of hair ties in oak this weekend, with a less overhead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/45-jig/45-jig-product.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="woodworking" /><summary type="html">An incremental improvement in safety and efficiency when drilling angled holes.</summary></entry><entry><title type="html">From Chair to Hair (Tie)</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair (Tie)" /><published>2020-09-20T03:24:30-07:00</published><updated>2020-09-20T03:24:30-07:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Carving up a big old chair into smaller goodies.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;I had some 70s era chairs from a garage sale purchase, just a couple months ago. But they were in poor condition; for example, the leather had not been conditioned, the dry straps cracking or snapped in places. They hogged space in the shop (garage) too, just gathering sawdust.&lt;/p&gt;
 
