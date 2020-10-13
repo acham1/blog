@@ -8,7 +8,7 @@ tags: mathjax code
 
 <span class='tagline'>{{ page.excerpt }}</span>
 
-For a [recent post](/2020/10/10/risk-and-financial-crises.html) on Financial Markets, I needed a tool to format math equations. There's a cool library called [MathJax](https://www.mathjax.org/) that makes it a breeze. Just add these two lines in your `<head>` element:
+For a [recent post](/2020/10/13/risk-and-financial-crises.html) on Financial Markets, I needed a tool to format math equations. There's a cool library called [MathJax](https://www.mathjax.org/) that makes it a breeze. Just add these two lines in your `<head>` element:
 
 ```
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
