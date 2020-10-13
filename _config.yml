@@ -32,6 +32,8 @@ epics:
     tag: code
   - display: Woodworking
     tag: woodworking
+  - display: Financial Markets
+    tag: financial-markets
   - display: Other
     tag: other
 

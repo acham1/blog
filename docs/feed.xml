@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-10-05T05:41:22-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Using basic elements of programming to compute cube roots.&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-10-13T04:11:58-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T04:11:00-07:00</published><updated>2020-10-13T04:11:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Adding LaTeX style math input for your web page is a two-line change.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;For a &lt;a href=&quot;/2020/10/10/risk-and-financial-crises.html&quot;&gt;recent post&lt;/a&gt; on Financial Markets, I needed a tool to format math equations. There’s a cool library called &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; that makes it a breeze. Just add these two lines in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The first is an optional polyfill to mimic modern features on old browsers. The second plucks the MathJax library off a CDN.&lt;/p&gt;
+
+&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
+&lt;p&gt;You can start writing LaTeX between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; delimiters.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$ \theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}}) $$
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The MathJax display engine handles the rest for you:&lt;/p&gt;
+
+\[\theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}})\]
+
+&lt;h1 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h1&gt;
+
+&lt;p&gt;For my post, I didn’t need anything fancy, but I’m still very impressed from a glance at its feature list, including:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;alternative input notations by MathML and AsciiMath&lt;/li&gt;
+  &lt;li&gt;interactive expression explorer for accessibility&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;I mean, just right-click on the equation above and see what I’m talking about! 😮&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is, however, a noticeable amount of latency as the math inputs render.&lt;/p&gt;</content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html">Adding LaTeX style math input for your web page is a two-line change.</summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T04:11:00-07:00</published><updated>2020-10-13T04:11:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;The joke goes as follows.&lt;br /&gt;&lt;br /&gt; Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed.&lt;br /&gt;&lt;br /&gt; But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it’s ubiquitous in nature.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;https://www.youtube.com/watch?v=QbosMr2JVrc&amp;amp;list=PL8FB14A2200B87185&quot;&gt;second lecture&lt;/a&gt; of his 2011 Financial Markets course, Yale professor and soon-to-be Nobel Laureate Robert Shiller teaches about the role of probability theory with concrete examples from the Global Financial Crisis (GFC) starting in 2007.&lt;/p&gt;
+
+&lt;p&gt;I watch it now in 2020 amidst a different, pandemic-driven economic crisis, but the lecture was no less topical at its original delivery that Spring semester. Months later, the Occupy Wall Street protests would begin.&lt;/p&gt;
+
+&lt;h1 id=&quot;source&quot;&gt;Source&lt;/h1&gt;
+&lt;p&gt;You can view the lecture along with me here:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QbosMr2JVrc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;select-highlights&quot;&gt;Select Highlights&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#financial-crisis-of-2007-2008-and-its-connection-to-probability-theory&quot;&gt;Financial Crisis of 2007-2008 and Its Connection to Probability Theory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#financial-return-and-basic-statistical-concepts&quot;&gt;Financial Return and Basic Statistical Concepts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#independence-and-failure-of-independence-as-a-cause-for-financial-crises&quot;&gt;Independence and Failure of Independence as a Cause for Financial Crises&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#regression-analysis-systematic-vs-idiosyncratic-risk&quot;&gt;Regression Analysis, Systematic vs. Idiosyncratic Risk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fat-tailed-distributions-and-their-role-during-financial-crises&quot;&gt;Fat-Tailed Distributions and their Role during Financial Crises&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;financial-crisis-of-2007-2008-and-its-connection-to-probability-theory&quot;&gt;Financial Crisis of 2007-2008 and Its Connection to Probability Theory&lt;/h1&gt;
+&lt;p&gt;When we think of a crisis, we form narratives to help us understand.&lt;/p&gt;
+
+&lt;p&gt;For example, the 2007 Global Financial Crisis (GFC) began with bubbles in the stock, housing, and commodities markets. Exuberant investors drove prices high. We saw a pre-break in 2000, in the form of a world-wide stock market collapse, but it bounced back by 2003. Then in 2007, we saw widespread institutional collapse. We saw failure of companies investing in home mortgages. We saw bank failure in the U.S, bank runs in the U.K. Nations cooperated to manage the spread of the collapse, bailing out their banks and companies. The world averted unmitigated disaster, and the market began to recover.&lt;/p&gt;
+
+&lt;p&gt;But the financial theorist thinks about the crisis differently, not just in terms of a few big events, but as the accumulation of many smaller events. And though the stories are often helpful, they must look beyond to try and understand the underlying probabilities.&lt;/p&gt;
+
+&lt;h1 id=&quot;financial-return-and-basic-statistical-concepts&quot;&gt;Financial Return and Basic Statistical Concepts&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Return&lt;/strong&gt;
+The most basic concept in finance is return, the sum of capital gains and dividends.&lt;/p&gt;
+
+\[Return _t = \frac {Price _{t+1} - Price _t + Dividend _t} {P _t}\]
+
+&lt;p&gt;The return is always within \([-1, ∞)\), because in a limited liability economy, you cannot lose more money than you put in. Therefore, as defined below, gross return is always non-negative.&lt;/p&gt;
+
+\[Gross\,Return = 1 + Return\]
+
+&lt;p&gt;&lt;strong&gt;Mean Return&lt;/strong&gt;
+Now, suppose, in order to evaluate an investor’s success, you choose a measure of central tendency. You might take the arithmetic mean of their annual returns:&lt;/p&gt;
+
+\[\bar{x} = \frac {1} {n} \sum_{i=1}^{n} {x _i}\]
+
+&lt;p&gt;Alternatively, you may take the geometric mean, based on gross return (since negative factors could lead to imaginary returns):&lt;/p&gt;
+
+\[G(x) = (\prod_{i=1}^{n} x_i)^{1/n}\]
+
+&lt;p&gt;However, the geometric mean is a better measure of outcome. For example, suppose one year the simple return is 100%. This might weigh down the arithmetic mean, but the geometric mean falls to zero, which is probably a more accurate indicator of overall outcome. I.e. the geometric mean better captures the outsized impact of the calamity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Covariance and Correlation&lt;/strong&gt;
+Covariance describes the relatedness of two random variables.&lt;/p&gt;
+
+\[cov(x,y) = \frac{1}{n} \sum_{i=1}^{n} (x-\bar{x})(y-\bar{y})\]
+
+&lt;p&gt;Correlation normalizes that relationship onto a scale from \([-1, 1]\).&lt;/p&gt;
+
+\[\rho = cov(x,y)/(s_x s_y)\]
+
+&lt;h1 id=&quot;independence-and-failure-of-independence-as-a-cause-for-financial-crises&quot;&gt;Independence and Failure of Independence as a Cause for Financial Crises&lt;/h1&gt;
+&lt;p&gt;On Black Monday in 1987, global markets markets crashed. DJIA fell 22.6% in one day, and other major foreign markets saw declines as great as 40%. Afterward, companies started to compute a measure of risk: Value at Risk (VaR). E.g. a 5% VaR of $10M means there’s a 5% chance that the value will decline by $10M or more.&lt;/p&gt;
+
+&lt;p&gt;Companies world-wide were computing over-optimistic VaR figures, because of an assumption of independence in their portfolio. By the Law of Large Numbers, you might expect the performance of a portfolio to converge to the expected value as you accumulate more independent assets (e.g. individual mortgages). By bundling a large number of risky assets, you effectively create an intrument that’s more reliable, and therefore more valuable. But that reliability only holds if the assumption of independence also holds. As we saw in the GFC, the correlatedness of the mortgages’ performances snuck a lot of risk into these “safe” instruments.&lt;/p&gt;
+
+&lt;p&gt;In response to the GFC, Professor Brunnermeier of Princeton introduces the idea of a CoVaR, or correlated Value-at-Risk. The risk metric must recognize that, during some episodes, portfolios can co-vary more than expected.&lt;/p&gt;
+
+&lt;h1 id=&quot;regression-analysis-systematic-vs-idiosyncratic-risk&quot;&gt;Regression Analysis, Systematic vs. Idiosyncratic Risk&lt;/h1&gt;
+
+&lt;p&gt;In this example, Shiller takes AAPL and the S&amp;amp;P 500 index, and he scatter plots their monthly returns.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;float: left; width: 50%;&quot; src=&quot;/assets/img/risk-and-financial-crises/returns.png&quot; /&gt;
+&lt;img style=&quot;float: left; width: 50%;&quot; src=&quot;/assets/img/risk-and-financial-crises/regression.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The linear regression line has a slope, called the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;beta&lt;/code&gt; which measures the stock’s volatility over the market. So we have the formula:&lt;/p&gt;
+
+\[Return_{Total} = Return_{Market} + Return_{Idiosyncratic} = \beta*Return_{S\&amp;amp;P} + Return_{Idiosyncratic}\]
+
+&lt;h1 id=&quot;fat-tailed-distributions-and-their-role-during-financial-crises&quot;&gt;Fat-Tailed Distributions and their Role during Financial Crises&lt;/h1&gt;
+
+&lt;p&gt;There’s a traditional assumption in finances, which turned out to be incorrect in the GFC: random shocks to the financial economy are normally distributed.&lt;/p&gt;
+
+&lt;p&gt;The Central Limit Theorem notes that, for independent identically distributed random variables with finite variance, a distribution of the average of these variables converges to the normal distribution. In other words, like so many things we observe in nature, averages are approximately normally distributed.&lt;/p&gt;
+
+&lt;p&gt;But the normal distribution does not have fat tails, and does not fit with the regular outliers we observe in finance. For example, the probability of Black Monday’s 20.5% drop should have a probability of \( 10^{-71} \) based on observations of daily swings, fitted to a normal distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/risk-and-financial-crises/histogram.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.&lt;/p&gt;</content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html">The joke goes as follows. Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed. But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it's ubiquitous in nature.</summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Using basic elements of programming to compute cube roots.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Chapter §1.1 of SICP covers some basic elements of programming. In this selected exercise 1.8, we use Newton’s Method and some of those elements to calculate cube roots.&lt;/p&gt;
 
@@ -15,7 +129,7 @@
 &lt;blockquote&gt;
   &lt;p&gt;Newton’s method for cube roots is based on the fact that if y is an approximation to the cube root of x, then a better approximation is given by the value&lt;/p&gt;
 
-  &lt;p&gt;(x/y^2 + 2y)/3&lt;/p&gt;
+\[\frac{(\frac{x}{y^2} + 2y)}{3}\]
 
   &lt;p&gt;Use this formula to implement a cube-root procedure analagous to the square root procedure.&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -19,7 +19,9 @@
 <script type="application/ld+json">
 {"datePublished":"2020-10-05T05:39:00-07:00","dateModified":"2020-10-05T05:39:00-07:00","url":"https://blog.alanch.am/2020/10/05/newtons-cube-root.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.alanch.am/2020/10/05/newtons-cube-root.html"},"description":"Using basic elements of programming to compute cube roots.","headline":"Cube Roots by Newton’s Method in Lisp","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://blog.alanch.am/feed.xml" title="Alan Cham" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://blog.alanch.am/feed.xml" title="Alan Cham" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="/assets/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
 <body><header class="site-header" role="banner">
 
     <div class="wrapper"><a class="site-title" rel="author" href="/">Alan Cham | Blog</a><nav class="site-nav">
@@ -65,7 +67,7 @@
 <blockquote>
   <p>Newton’s method for cube roots is based on the fact that if y is an approximation to the cube root of x, then a better approximation is given by the value</p>
 
-  <p>(x/y^2 + 2y)/3</p>
+\[\frac{(\frac{x}{y^2} + 2y)}{3}\]
 
   <p>Use this formula to implement a cube-root procedure analagous to the square root procedure.</p>
 </blockquote>
