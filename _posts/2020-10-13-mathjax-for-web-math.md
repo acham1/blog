@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cool Find: MathJax for Web Math"
-date: 2020-10-13 04:11:00 -0700
+date: 2020-10-13 04:14:00 -0700
 excerpt: "Adding LaTeX style math input for your web page is a two-line change."
 tags: mathjax code
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Risk and Financial Crises
-date: 2020-10-13 04:11:00 -0700
+date: 2020-10-13 04:14:00 -0700
 excerpt: >
     The joke goes as follows.<br><br>
     Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed.<br><br>
