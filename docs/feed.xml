@@ -1,32 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2020-10-13T04:38:08-07:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Adding LaTeX style math input for your web page is a two-line change.&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2021-02-22T17:38:31-08:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Signing Out of LR for the Last Time</title><link href="https://blog.alanch.am/2021/02/22/five-twenty-three.html" rel="alternate" type="text/html" title="Signing Out of LR for the Last Time" /><published>2021-02-22T05:41:00-08:00</published><updated>2021-02-22T05:41:00-08:00</updated><id>https://blog.alanch.am/2021/02/22/five-twenty-three</id><content type="html" xml:base="https://blog.alanch.am/2021/02/22/five-twenty-three.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.
+&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;For a &lt;a href=&quot;/2020/10/13/risk-and-financial-crises.html&quot;&gt;recent post&lt;/a&gt; on Financial Markets, I needed a tool to format math equations. There’s a cool library called &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; that makes it a breeze. Just add these two lines in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+&lt;p&gt;At 5:23 PM in my local time, all my GSuite accounts logged me out of open sessions. GitHub deleted all my forks of private repos in the org. Except for mailing back my laptop, everything is wrapped up.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The first is an optional polyfill to mimic modern features on old browsers. The second plucks the MathJax library off a CDN.&lt;/p&gt;
-
-&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
-&lt;p&gt;You can start writing LaTeX between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; delimiters.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$ \theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}}) $$
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The MathJax display engine handles the rest for you:&lt;/p&gt;
-
-\[\theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}})\]
-
-&lt;h1 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h1&gt;
-
-&lt;p&gt;For my post, I didn’t need anything fancy, but I’m still very impressed from a glance at its feature list, including:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;alternative input notations by MathML and AsciiMath&lt;/li&gt;
-  &lt;li&gt;interactive expression explorer for accessibility&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;I mean, just right-click on the equation above and see what I’m talking about! 😮&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is, however, a noticeable amount of latency as the math inputs render.&lt;/p&gt;</content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html">Adding LaTeX style math input for your web page is a two-line change.</summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;The joke goes as follows.&lt;br /&gt;&lt;br /&gt; Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed.&lt;br /&gt;&lt;br /&gt; But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it’s ubiquitous in nature.
+&lt;p&gt;This is it; farewell for now, good friends!&lt;/p&gt;</content><author><name></name></author><category term="other" /><summary type="html">Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.</summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;The joke goes as follows.&lt;br /&gt;&lt;br /&gt; Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed.&lt;br /&gt;&lt;br /&gt; But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it’s ubiquitous in nature.
 &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;In the &lt;a href=&quot;https://www.youtube.com/watch?v=QbosMr2JVrc&amp;amp;list=PL8FB14A2200B87185&quot;&gt;second lecture&lt;/a&gt; of his 2011 Financial Markets course, Yale professor and soon-to-be Nobel Laureate Robert Shiller teaches about the role of probability theory with concrete examples from the Global Financial Crisis (GFC) starting in 2007.&lt;/p&gt;
@@ -112,7 +89,35 @@ Covariance describes the relatedness of two random variables.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/risk-and-financial-crises/histogram.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.&lt;/p&gt;</content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html">The joke goes as follows. Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed. But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it's ubiquitous in nature.</summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Using basic elements of programming to compute cube roots.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.&lt;/p&gt;</content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html">The joke goes as follows. Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed. But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it's ubiquitous in nature.</summary></entry><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Adding LaTeX style math input for your web page is a two-line change.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;For a &lt;a href=&quot;/2020/10/13/risk-and-financial-crises.html&quot;&gt;recent post&lt;/a&gt; on Financial Markets, I needed a tool to format math equations. There’s a cool library called &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; that makes it a breeze. Just add these two lines in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The first is an optional polyfill to mimic modern features on old browsers. The second plucks the MathJax library off a CDN.&lt;/p&gt;
+
+&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
+&lt;p&gt;You can start writing LaTeX between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; delimiters.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$ \theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}}) $$
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The MathJax display engine handles the rest for you:&lt;/p&gt;
+
+\[\theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}})\]
+
+&lt;h1 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h1&gt;
+
+&lt;p&gt;For my post, I didn’t need anything fancy, but I’m still very impressed from a glance at its feature list, including:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;alternative input notations by MathML and AsciiMath&lt;/li&gt;
+  &lt;li&gt;interactive expression explorer for accessibility&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;I mean, just right-click on the equation above and see what I’m talking about! 😮&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is, however, a noticeable amount of latency as the math inputs render.&lt;/p&gt;</content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html">Adding LaTeX style math input for your web page is a two-line change.</summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Using basic elements of programming to compute cube roots.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Chapter §1.1 of SICP covers some basic elements of programming. In this selected exercise 1.8, we use Newton’s Method and some of those elements to calculate cube roots.&lt;/p&gt;
 
