@@ -4,8 +4,7 @@ title: Risk and Financial Crises
 date: 2020-10-13 04:14:00 -0700
 excerpt: >
     The joke goes as follows.<br><br>
-    Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed.<br><br>
-    But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it's ubiquitous in nature.
+    Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.
 tags: financial-markets robert-shiller
 ---
 
