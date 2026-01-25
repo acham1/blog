@@ -1,544 +1,544 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2021-02-22T17:38:31-08:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Signing Out of LR for the Last Time</title><link href="https://blog.alanch.am/2021/02/22/five-twenty-three.html" rel="alternate" type="text/html" title="Signing Out of LR for the Last Time" /><published>2021-02-22T05:41:00-08:00</published><updated>2021-02-22T05:41:00-08:00</updated><id>https://blog.alanch.am/2021/02/22/five-twenty-three</id><content type="html" xml:base="https://blog.alanch.am/2021/02/22/five-twenty-three.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.
-&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2026-01-24T19:05:12-08:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Signing Out of LR for the Last Time</title><link href="https://blog.alanch.am/2021/02/22/five-twenty-three.html" rel="alternate" type="text/html" title="Signing Out of LR for the Last Time" /><published>2021-02-22T05:41:00-08:00</published><updated>2021-02-22T05:41:00-08:00</updated><id>https://blog.alanch.am/2021/02/22/five-twenty-three</id><content type="html" xml:base="https://blog.alanch.am/2021/02/22/five-twenty-three.html"><![CDATA[<p><span class="tagline">Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.
+</span></p>
 
-&lt;p&gt;At 5:23 PM in my local time, all my GSuite accounts logged me out of open sessions. GitHub deleted all my forks of private repos in the org. Except for mailing back my laptop, everything is wrapped up.&lt;/p&gt;
+<p>At 5:23 PM in my local time, all my GSuite accounts logged me out of open sessions. GitHub deleted all my forks of private repos in the org. Except for mailing back my laptop, everything is wrapped up.</p>
 
-&lt;p&gt;This is it; farewell for now, good friends!&lt;/p&gt;</content><author><name></name></author><category term="other" /><summary type="html">Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.</summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;The joke goes as follows.&lt;br /&gt;&lt;br /&gt; Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed.&lt;br /&gt;&lt;br /&gt; But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it’s ubiquitous in nature.
-&lt;/span&gt;&lt;/p&gt;
+<p>This is it; farewell for now, good friends!</p>]]></content><author><name></name></author><category term="other" /><summary type="html"><![CDATA[Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.]]></summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html"><![CDATA[<p><span class="tagline">The joke goes as follows.<br /><br /> Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.
+</span></p>
 
-&lt;p&gt;In the &lt;a href=&quot;https://www.youtube.com/watch?v=QbosMr2JVrc&amp;amp;list=PL8FB14A2200B87185&quot;&gt;second lecture&lt;/a&gt; of his 2011 Financial Markets course, Yale professor and soon-to-be Nobel Laureate Robert Shiller teaches about the role of probability theory with concrete examples from the Global Financial Crisis (GFC) starting in 2007.&lt;/p&gt;
+<p>In the <a href="https://www.youtube.com/watch?v=QbosMr2JVrc&amp;list=PL8FB14A2200B87185">second lecture</a> of his 2011 Financial Markets course, Yale professor and soon-to-be Nobel Laureate Robert Shiller teaches about the role of probability theory with concrete examples from the Global Financial Crisis (GFC) starting in 2007.</p>
 
-&lt;p&gt;I watch it now in 2020 amidst a different, pandemic-driven economic crisis, but the lecture was no less topical at its original delivery that Spring semester. Months later, the Occupy Wall Street protests would begin.&lt;/p&gt;
+<p>I watch it now in 2020 amidst a different, pandemic-driven economic crisis, but the lecture was no less topical at its original delivery that Spring semester. Months later, the Occupy Wall Street protests would begin.</p>
 
-&lt;h1 id=&quot;source&quot;&gt;Source&lt;/h1&gt;
-&lt;p&gt;You can view the lecture along with me here:&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QbosMr2JVrc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<h1 id="source">Source</h1>
+<p>You can view the lecture along with me here:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QbosMr2JVrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-&lt;h1 id=&quot;select-highlights&quot;&gt;Select Highlights&lt;/h1&gt;
+<h1 id="select-highlights">Select Highlights</h1>
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#financial-crisis-of-2007-2008-and-its-connection-to-probability-theory&quot;&gt;Financial Crisis of 2007-2008 and Its Connection to Probability Theory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#financial-return-and-basic-statistical-concepts&quot;&gt;Financial Return and Basic Statistical Concepts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#independence-and-failure-of-independence-as-a-cause-for-financial-crises&quot;&gt;Independence and Failure of Independence as a Cause for Financial Crises&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#regression-analysis-systematic-vs-idiosyncratic-risk&quot;&gt;Regression Analysis, Systematic vs. Idiosyncratic Risk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fat-tailed-distributions-and-their-role-during-financial-crises&quot;&gt;Fat-Tailed Distributions and their Role during Financial Crises&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li><a href="#financial-crisis-of-2007-2008-and-its-connection-to-probability-theory">Financial Crisis of 2007-2008 and Its Connection to Probability Theory</a></li>
+  <li><a href="#financial-return-and-basic-statistical-concepts">Financial Return and Basic Statistical Concepts</a></li>
+  <li><a href="#independence-and-failure-of-independence-as-a-cause-for-financial-crises">Independence and Failure of Independence as a Cause for Financial Crises</a></li>
+  <li><a href="#regression-analysis-systematic-vs-idiosyncratic-risk">Regression Analysis, Systematic vs. Idiosyncratic Risk</a></li>
+  <li><a href="#fat-tailed-distributions-and-their-role-during-financial-crises">Fat-Tailed Distributions and their Role during Financial Crises</a></li>
+</ol>
 
-&lt;h1 id=&quot;financial-crisis-of-2007-2008-and-its-connection-to-probability-theory&quot;&gt;Financial Crisis of 2007-2008 and Its Connection to Probability Theory&lt;/h1&gt;
-&lt;p&gt;When we think of a crisis, we form narratives to help us understand.&lt;/p&gt;
+<h1 id="financial-crisis-of-2007-2008-and-its-connection-to-probability-theory">Financial Crisis of 2007-2008 and Its Connection to Probability Theory</h1>
+<p>When we think of a crisis, we form narratives to help us understand.</p>
 
-&lt;p&gt;For example, the 2007 Global Financial Crisis (GFC) began with bubbles in the stock, housing, and commodities markets. Exuberant investors drove prices high. We saw a pre-break in 2000, in the form of a world-wide stock market collapse, but it bounced back by 2003. Then in 2007, we saw widespread institutional collapse. We saw failure of companies investing in home mortgages. We saw bank failure in the U.S, bank runs in the U.K. Nations cooperated to manage the spread of the collapse, bailing out their banks and companies. The world averted unmitigated disaster, and the market began to recover.&lt;/p&gt;
+<p>For example, the 2007 Global Financial Crisis (GFC) began with bubbles in the stock, housing, and commodities markets. Exuberant investors drove prices high. We saw a pre-break in 2000, in the form of a world-wide stock market collapse, but it bounced back by 2003. Then in 2007, we saw widespread institutional collapse. We saw failure of companies investing in home mortgages. We saw bank failure in the U.S, bank runs in the U.K. Nations cooperated to manage the spread of the collapse, bailing out their banks and companies. The world averted unmitigated disaster, and the market began to recover.</p>
 
-&lt;p&gt;But the financial theorist thinks about the crisis differently, not just in terms of a few big events, but as the accumulation of many smaller events. And though the stories are often helpful, they must look beyond to try and understand the underlying probabilities.&lt;/p&gt;
+<p>But the financial theorist thinks about the crisis differently, not just in terms of a few big events, but as the accumulation of many smaller events. And though the stories are often helpful, they must look beyond to try and understand the underlying probabilities.</p>
 
-&lt;h1 id=&quot;financial-return-and-basic-statistical-concepts&quot;&gt;Financial Return and Basic Statistical Concepts&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Return&lt;/strong&gt;
-The most basic concept in finance is return, the sum of capital gains and dividends.&lt;/p&gt;
+<h1 id="financial-return-and-basic-statistical-concepts">Financial Return and Basic Statistical Concepts</h1>
+<p><strong>Return</strong>
+The most basic concept in finance is return, the sum of capital gains and dividends.</p>
 
 \[Return _t = \frac {Price _{t+1} - Price _t + Dividend _t} {P _t}\]
 
-&lt;p&gt;The return is always within \([-1, ∞)\), because in a limited liability economy, you cannot lose more money than you put in. Therefore, as defined below, gross return is always non-negative.&lt;/p&gt;
+<p>The return is always within \([-1, ∞)\), because in a limited liability economy, you cannot lose more money than you put in. Therefore, as defined below, gross return is always non-negative.</p>
 
 \[Gross\,Return = 1 + Return\]
 
-&lt;p&gt;&lt;strong&gt;Mean Return&lt;/strong&gt;
-Now, suppose, in order to evaluate an investor’s success, you choose a measure of central tendency. You might take the arithmetic mean of their annual returns:&lt;/p&gt;
+<p><strong>Mean Return</strong>
+Now, suppose, in order to evaluate an investor’s success, you choose a measure of central tendency. You might take the arithmetic mean of their annual returns:</p>
 
 \[\bar{x} = \frac {1} {n} \sum_{i=1}^{n} {x _i}\]
 
-&lt;p&gt;Alternatively, you may take the geometric mean, based on gross return (since negative factors could lead to imaginary returns):&lt;/p&gt;
+<p>Alternatively, you may take the geometric mean, based on gross return (since negative factors could lead to imaginary returns):</p>
 
 \[G(x) = (\prod_{i=1}^{n} x_i)^{1/n}\]
 
-&lt;p&gt;However, the geometric mean is a better measure of outcome. For example, suppose one year the simple return is 100%. This might weigh down the arithmetic mean, but the geometric mean falls to zero, which is probably a more accurate indicator of overall outcome. I.e. the geometric mean better captures the outsized impact of the calamity.&lt;/p&gt;
+<p>However, the geometric mean is a better measure of outcome. For example, suppose one year the simple return is 100%. This might weigh down the arithmetic mean, but the geometric mean falls to zero, which is probably a more accurate indicator of overall outcome. I.e. the geometric mean better captures the outsized impact of the calamity.</p>
 
-&lt;p&gt;&lt;strong&gt;Covariance and Correlation&lt;/strong&gt;
-Covariance describes the relatedness of two random variables.&lt;/p&gt;
+<p><strong>Covariance and Correlation</strong>
+Covariance describes the relatedness of two random variables.</p>
 
 \[cov(x,y) = \frac{1}{n} \sum_{i=1}^{n} (x-\bar{x})(y-\bar{y})\]
 
-&lt;p&gt;Correlation normalizes that relationship onto a scale from \([-1, 1]\).&lt;/p&gt;
+<p>Correlation normalizes that relationship onto a scale from \([-1, 1]\).</p>
 
 \[\rho = cov(x,y)/(s_x s_y)\]
 
-&lt;h1 id=&quot;independence-and-failure-of-independence-as-a-cause-for-financial-crises&quot;&gt;Independence and Failure of Independence as a Cause for Financial Crises&lt;/h1&gt;
-&lt;p&gt;On Black Monday in 1987, global markets markets crashed. DJIA fell 22.6% in one day, and other major foreign markets saw declines as great as 40%. Afterward, companies started to compute a measure of risk: Value at Risk (VaR). E.g. a 5% VaR of $10M means there’s a 5% chance that the value will decline by $10M or more.&lt;/p&gt;
+<h1 id="independence-and-failure-of-independence-as-a-cause-for-financial-crises">Independence and Failure of Independence as a Cause for Financial Crises</h1>
+<p>On Black Monday in 1987, global markets markets crashed. DJIA fell 22.6% in one day, and other major foreign markets saw declines as great as 40%. Afterward, companies started to compute a measure of risk: Value at Risk (VaR). E.g. a 5% VaR of $10M means there’s a 5% chance that the value will decline by $10M or more.</p>
 
-&lt;p&gt;Companies world-wide were computing over-optimistic VaR figures, because of an assumption of independence in their portfolio. By the Law of Large Numbers, you might expect the performance of a portfolio to converge to the expected value as you accumulate more independent assets (e.g. individual mortgages). By bundling a large number of risky assets, you effectively create an intrument that’s more reliable, and therefore more valuable. But that reliability only holds if the assumption of independence also holds. As we saw in the GFC, the correlatedness of the mortgages’ performances snuck a lot of risk into these “safe” instruments.&lt;/p&gt;
+<p>Companies world-wide were computing over-optimistic VaR figures, because of an assumption of independence in their portfolio. By the Law of Large Numbers, you might expect the performance of a portfolio to converge to the expected value as you accumulate more independent assets (e.g. individual mortgages). By bundling a large number of risky assets, you effectively create an intrument that’s more reliable, and therefore more valuable. But that reliability only holds if the assumption of independence also holds. As we saw in the GFC, the correlatedness of the mortgages’ performances snuck a lot of risk into these “safe” instruments.</p>
 
-&lt;p&gt;In response to the GFC, Professor Brunnermeier of Princeton introduces the idea of a CoVaR, or correlated Value-at-Risk. The risk metric must recognize that, during some episodes, portfolios can co-vary more than expected.&lt;/p&gt;
+<p>In response to the GFC, Professor Brunnermeier of Princeton introduces the idea of a CoVaR, or correlated Value-at-Risk. The risk metric must recognize that, during some episodes, portfolios can co-vary more than expected.</p>
 
-&lt;h1 id=&quot;regression-analysis-systematic-vs-idiosyncratic-risk&quot;&gt;Regression Analysis, Systematic vs. Idiosyncratic Risk&lt;/h1&gt;
+<h1 id="regression-analysis-systematic-vs-idiosyncratic-risk">Regression Analysis, Systematic vs. Idiosyncratic Risk</h1>
 
-&lt;p&gt;In this example, Shiller takes AAPL and the S&amp;amp;P 500 index, and he scatter plots their monthly returns.&lt;/p&gt;
+<p>In this example, Shiller takes AAPL and the S&amp;P 500 index, and he scatter plots their monthly returns.</p>
 
-&lt;p&gt;&lt;img style=&quot;float: left; width: 50%;&quot; src=&quot;/assets/img/risk-and-financial-crises/returns.png&quot; /&gt;
-&lt;img style=&quot;float: left; width: 50%;&quot; src=&quot;/assets/img/risk-and-financial-crises/regression.png&quot; /&gt;&lt;/p&gt;
+<p><img style="float: left; width: 50%;" src="/assets/img/risk-and-financial-crises/returns.png" />
+<img style="float: left; width: 50%;" src="/assets/img/risk-and-financial-crises/regression.png" /></p>
 
-&lt;p&gt;The linear regression line has a slope, called the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;beta&lt;/code&gt; which measures the stock’s volatility over the market. So we have the formula:&lt;/p&gt;
+<p>The linear regression line has a slope, called the <code class="language-plaintext highlighter-rouge">beta</code> which measures the stock’s volatility over the market. So we have the formula:</p>
 
-\[Return_{Total} = Return_{Market} + Return_{Idiosyncratic} = \beta*Return_{S\&amp;amp;P} + Return_{Idiosyncratic}\]
+\[Return_{Total} = Return_{Market} + Return_{Idiosyncratic} = \beta*Return_{S\&amp;P} + Return_{Idiosyncratic}\]
 
-&lt;h1 id=&quot;fat-tailed-distributions-and-their-role-during-financial-crises&quot;&gt;Fat-Tailed Distributions and their Role during Financial Crises&lt;/h1&gt;
+<h1 id="fat-tailed-distributions-and-their-role-during-financial-crises">Fat-Tailed Distributions and their Role during Financial Crises</h1>
 
-&lt;p&gt;There’s a traditional assumption in finances, which turned out to be incorrect in the GFC: random shocks to the financial economy are normally distributed.&lt;/p&gt;
+<p>There’s a traditional assumption in finances, which turned out to be incorrect in the GFC: random shocks to the financial economy are normally distributed.</p>
 
-&lt;p&gt;The Central Limit Theorem notes that, for independent identically distributed random variables with finite variance, a distribution of the average of these variables converges to the normal distribution. In other words, like so many things we observe in nature, averages are approximately normally distributed.&lt;/p&gt;
+<p>The Central Limit Theorem notes that, for independent identically distributed random variables with finite variance, a distribution of the average of these variables converges to the normal distribution. In other words, like so many things we observe in nature, averages are approximately normally distributed.</p>
 
-&lt;p&gt;But the normal distribution does not have fat tails, and does not fit with the regular outliers we observe in finance. For example, the probability of Black Monday’s 20.5% drop should have a probability of \( 10^{-71} \) based on observations of daily swings, fitted to a normal distribution.&lt;/p&gt;
+<p>But the normal distribution does not have fat tails, and does not fit with the regular outliers we observe in finance. For example, the probability of Black Monday’s 20.5% drop should have a probability of \( 10^{-71} \) based on observations of daily swings, fitted to a normal distribution.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/risk-and-financial-crises/histogram.png&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/risk-and-financial-crises/histogram.png" /></p>
 
-&lt;p&gt;Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.&lt;/p&gt;</content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html">The joke goes as follows. Mathematicians think that the normal distribution is ubiquitous in nature because applied workers have discovered that everything is normally distributed. But applied workers think that the normal distribution is ubiquitous in nature because mathematicians have proved that it's ubiquitous in nature.</summary></entry><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Adding LaTeX style math input for your web page is a two-line change.&lt;/span&gt;&lt;/p&gt;
+<p>Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.</p>]]></content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html"><![CDATA[The joke goes as follows. Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.]]></summary></entry><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html"><![CDATA[<p><span class="tagline">Adding LaTeX style math input for your web page is a two-line change.</span></p>
 
-&lt;p&gt;For a &lt;a href=&quot;/2020/10/13/risk-and-financial-crises.html&quot;&gt;recent post&lt;/a&gt; on Financial Markets, I needed a tool to format math equations. There’s a cool library called &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; that makes it a breeze. Just add these two lines in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+<p>For a <a href="/2020/10/13/risk-and-financial-crises.html">recent post</a> on Financial Markets, I needed a tool to format math equations. There’s a cool library called <a href="https://www.mathjax.org/">MathJax</a> that makes it a breeze. Just add these two lines in your <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> element:</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6"&gt;&lt;/script&gt;
+&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;
+</code></pre></div></div>
 
-&lt;p&gt;The first is an optional polyfill to mimic modern features on old browsers. The second plucks the MathJax library off a CDN.&lt;/p&gt;
+<p>The first is an optional polyfill to mimic modern features on old browsers. The second plucks the MathJax library off a CDN.</p>
 
-&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
-&lt;p&gt;You can start writing LaTeX between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; delimiters.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$ \theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}}) $$
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<h1 id="example">Example</h1>
+<p>You can start writing LaTeX between the <code class="language-plaintext highlighter-rouge">$$</code> delimiters.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$ \theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}}) $$
+</code></pre></div></div>
 
-&lt;p&gt;The MathJax display engine handles the rest for you:&lt;/p&gt;
+<p>The MathJax display engine handles the rest for you:</p>
 
 \[\theta _{t}=\sin^{-1}(\frac{n_{i}\sin\theta _{i}}{n_{t}})\]
 
-&lt;h1 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h1&gt;
+<h1 id="final-thoughts">Final Thoughts</h1>
 
-&lt;p&gt;For my post, I didn’t need anything fancy, but I’m still very impressed from a glance at its feature list, including:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;alternative input notations by MathML and AsciiMath&lt;/li&gt;
-  &lt;li&gt;interactive expression explorer for accessibility&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;I mean, just right-click on the equation above and see what I’m talking about! 😮&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>For my post, I didn’t need anything fancy, but I’m still very impressed from a glance at its feature list, including:</p>
+<ul>
+  <li>alternative input notations by MathML and AsciiMath</li>
+  <li>interactive expression explorer for accessibility</li>
+  <li><strong>I mean, just right-click on the equation above and see what I’m talking about! 😮</strong></li>
+</ul>
 
-&lt;p&gt;There is, however, a noticeable amount of latency as the math inputs render.&lt;/p&gt;</content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html">Adding LaTeX style math input for your web page is a two-line change.</summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Using basic elements of programming to compute cube roots.&lt;/span&gt;&lt;/p&gt;
+<p>There is, however, a noticeable amount of latency as the math inputs render.</p>]]></content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html"><![CDATA[Adding LaTeX style math input for your web page is a two-line change.]]></summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html"><![CDATA[<p><span class="tagline">Using basic elements of programming to compute cube roots.</span></p>
 
-&lt;p&gt;Chapter §1.1 of SICP covers some basic elements of programming. In this selected exercise 1.8, we use Newton’s Method and some of those elements to calculate cube roots.&lt;/p&gt;
+<p>Chapter §1.1 of SICP covers some basic elements of programming. In this selected exercise 1.8, we use Newton’s Method and some of those elements to calculate cube roots.</p>
 
-&lt;p&gt;In this solution, I demonstrate concepts such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Lexical Scoping&lt;/li&gt;
-  &lt;li&gt;Compound Procedures&lt;/li&gt;
-  &lt;li&gt;Black Box Abstractions&lt;/li&gt;
-  &lt;li&gt;Conditional Expressions and Predicates&lt;/li&gt;
-  &lt;li&gt;First-Class Functions&lt;/li&gt;
-&lt;/ul&gt;
+<p>In this solution, I demonstrate concepts such as:</p>
+<ul>
+  <li>Lexical Scoping</li>
+  <li>Compound Procedures</li>
+  <li>Black Box Abstractions</li>
+  <li>Conditional Expressions and Predicates</li>
+  <li>First-Class Functions</li>
+</ul>
 
-&lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Newton’s method for cube roots is based on the fact that if y is an approximation to the cube root of x, then a better approximation is given by the value&lt;/p&gt;
+<h1 id="problem">Problem</h1>
+<blockquote>
+  <p>Newton’s method for cube roots is based on the fact that if y is an approximation to the cube root of x, then a better approximation is given by the value</p>
 
 \[\frac{(\frac{x}{y^2} + 2y)}{3}\]
 
-  &lt;p&gt;Use this formula to implement a cube-root procedure analagous to the square root procedure.&lt;/p&gt;
-&lt;/blockquote&gt;
+  <p>Use this formula to implement a cube-root procedure analagous to the square root procedure.</p>
+</blockquote>
 
-&lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
+<h1 id="solution">Solution</h1>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root-iter&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;good-enough?&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root-iter&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;improve&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cube-root</span> <span class="nv">x</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">cube-root-iter</span> <span class="nv">guess</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nf">good-enough?</span> <span class="nv">guess</span><span class="p">)</span>
+        <span class="nv">guess</span>
+        <span class="p">(</span><span class="nf">cube-root-iter</span> <span class="p">(</span><span class="nf">improve</span> <span class="nv">guess</span><span class="p">))))</span>
 
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;good-enough?&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;abs&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;expt&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
-               &lt;span class=&quot;nv&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; 
-       &lt;span class=&quot;mf&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">good-enough?</span> <span class="nv">guess</span><span class="p">)</span>
+    <span class="p">(</span><span class="nb">&lt;</span> <span class="p">(</span><span class="nb">abs</span> <span class="p">(</span><span class="nb">-</span> <span class="p">(</span><span class="nb">expt</span> <span class="nv">guess</span> <span class="mi">3</span><span class="p">)</span> 
+               <span class="nv">x</span><span class="p">))</span> 
+       <span class="mf">0.001</span><span class="p">))</span>
 
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;improve&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;x&lt;/span&gt;
-             &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;expt&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-       &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">improve</span> <span class="nv">guess</span><span class="p">)</span>
+    <span class="p">(</span><span class="nb">/</span> <span class="p">(</span><span class="nb">+</span> <span class="p">(</span><span class="nb">/</span> <span class="nv">x</span>
+             <span class="p">(</span><span class="nb">expt</span> <span class="nv">guess</span> <span class="mi">2</span><span class="p">))</span>
+          <span class="p">(</span><span class="nb">*</span> <span class="mi">2</span> <span class="nv">guess</span><span class="p">))</span>
+       <span class="mi">3</span><span class="p">))</span>
 
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root-iter&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  <span class="p">(</span><span class="nf">cube-root-iter</span> <span class="mf">1.0</span><span class="p">))</span></code></pre></figure>
 
-&lt;p&gt;In this solution I use the block structure (i.e. nested procedure definitions) to internalize sub-procedure implementations like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;good-enough?&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;improve&lt;/code&gt; without cluttering the global environment.&lt;/p&gt;
+<p>In this solution I use the block structure (i.e. nested procedure definitions) to internalize sub-procedure implementations like <code class="language-plaintext highlighter-rouge">good-enough?</code> and <code class="language-plaintext highlighter-rouge">improve</code> without cluttering the global environment.</p>
 
-&lt;p&gt;I can also reference the parent procedure’s formal argument &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; from within these sub-procedures thanks to lexical scoping, keeping the function signature tighter.&lt;/p&gt;
+<p>I can also reference the parent procedure’s formal argument <code class="language-plaintext highlighter-rouge">x</code> from within these sub-procedures thanks to lexical scoping, keeping the function signature tighter.</p>
 
-&lt;p&gt;With a few trial runs, we see that our implementation is both simple and sane.&lt;/p&gt;
+<p>With a few trial runs, we see that our implementation is both simple and sane.</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;-8.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;64.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;-512.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cube-root&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1024.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;; 1&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;; -2&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;; 4.000017449510739&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;; -8.000000025890593&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;; 10.07936863575223&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">cube-root</span> <span class="mf">1.0</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">cube-root</span> <span class="mf">-8.0</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">cube-root</span> <span class="mf">64.0</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">cube-root</span> <span class="mf">-512.0</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">cube-root</span> <span class="mf">1024.0</span><span class="p">)</span>
+<span class="c1">; 1</span>
+<span class="c1">; -2</span>
+<span class="c1">; 4.000017449510739</span>
+<span class="c1">; -8.000000025890593</span>
+<span class="c1">; 10.07936863575223</span></code></pre></figure>
 
-&lt;p&gt;You can give it a try yourself with this web-based &lt;a href=&quot;https://inst.eecs.berkeley.edu/~cs61a/fa14/assets/interpreter/scheme.html&quot;&gt;scheme interpreter&lt;/a&gt;.&lt;/p&gt;
+<p>You can give it a try yourself with this web-based <a href="https://inst.eecs.berkeley.edu/~cs61a/fa14/assets/interpreter/scheme.html">scheme interpreter</a>.</p>
 
-&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
-&lt;p&gt;The following link is a paid advertisement.&lt;/p&gt;
+<h1 id="reference">Reference</h1>
+<p>The following link is a paid advertisement.</p>
 
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;amp;OneJS=1&amp;amp;Operation=GetAdHtml&amp;amp;MarketPlace=US&amp;amp;source=ss&amp;amp;ref=as_ss_li_til&amp;amp;ad_type=product_link&amp;amp;tracking_id=acham1-20&amp;amp;language=en_US&amp;amp;marketplace=amazon&amp;amp;region=US&amp;amp;placement=0262510871&amp;amp;asins=0262510871&amp;amp;linkId=a6ace59defa13d2687dc99294fc2ba8b&amp;amp;show_border=true&amp;amp;link_opens_in_new_window=true&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="sicp" /><category term="lisp" /><summary type="html">Using basic elements of programming to compute cube roots.</summary></entry><entry><title type="html">45-Degree Drill Press Jig</title><link href="https://blog.alanch.am/2020/10/05/45-jig.html" rel="alternate" type="text/html" title="45-Degree Drill Press Jig" /><published>2020-10-05T03:02:00-07:00</published><updated>2020-10-05T03:02:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/45-jig</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/45-jig.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;An incremental improvement in safety and efficiency when drilling angled holes.&lt;/span&gt;&lt;/p&gt;
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=acham1-20&amp;language=en_US&amp;marketplace=amazon&amp;region=US&amp;placement=0262510871&amp;asins=0262510871&amp;linkId=a6ace59defa13d2687dc99294fc2ba8b&amp;show_border=true&amp;link_opens_in_new_window=true"></iframe>]]></content><author><name></name></author><category term="sicp" /><category term="lisp" /><summary type="html"><![CDATA[Using basic elements of programming to compute cube roots.]]></summary></entry><entry><title type="html">45-Degree Drill Press Jig</title><link href="https://blog.alanch.am/2020/10/05/45-jig.html" rel="alternate" type="text/html" title="45-Degree Drill Press Jig" /><published>2020-10-05T03:02:00-07:00</published><updated>2020-10-05T03:02:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/45-jig</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/45-jig.html"><![CDATA[<p><span class="tagline">An incremental improvement in safety and efficiency when drilling angled holes.</span></p>
 
-&lt;p&gt;As I ramped up production on the hair ties, I began to think about improving my process. The wood cubes are small pieces, difficult to control firmly between fingers in the absence of leverage.&lt;/p&gt;
+<p>As I ramped up production on the hair ties, I began to think about improving my process. The wood cubes are small pieces, difficult to control firmly between fingers in the absence of leverage.</p>
 
-&lt;p&gt;Once it’s rough-cut from the lumber stock, it’s too small (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.75&quot; x 0.75&quot; x 0.75&quot;&lt;/code&gt; for the mini size) to run through the table or miter saws to make finer size adjustments – by hand, anyway.&lt;/p&gt;
+<p>Once it’s rough-cut from the lumber stock, it’s too small (e.g. <code class="language-plaintext highlighter-rouge">0.75" x 0.75" x 0.75"</code> for the mini size) to run through the table or miter saws to make finer size adjustments – by hand, anyway.</p>
 
-&lt;h1 id=&quot;the-problem&quot;&gt;The Problem&lt;/h1&gt;
+<h1 id="the-problem">The Problem</h1>
 
-&lt;p&gt;Likewise, it’s hard to fix the cube at a 45-degree angle under the drill press, to bore a hole between two adjacent faces. Here were some of my issues:&lt;/p&gt;
+<p>Likewise, it’s hard to fix the cube at a 45-degree angle under the drill press, to bore a hole between two adjacent faces. Here were some of my issues:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Holding the cube by vise would be safest, but:
-    &lt;ul&gt;
-      &lt;li&gt;too slow and unwieldy to load and unload.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Holding the cube by hand is quicker, but:
-    &lt;ul&gt;
-      &lt;li&gt;fingers get dangerously close to rotating bit,&lt;/li&gt;
-      &lt;li&gt;it’s hard to keep the eyeball-estimated angle consistent between holes,&lt;/li&gt;
-      &lt;li&gt;and it’s hard to keep the cube stable against the weight of the bit.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Holding the cube by vise would be safest, but:
+    <ul>
+      <li>too slow and unwieldy to load and unload.</li>
+    </ul>
+  </li>
+  <li>Holding the cube by hand is quicker, but:
+    <ul>
+      <li>fingers get dangerously close to rotating bit,</li>
+      <li>it’s hard to keep the eyeball-estimated angle consistent between holes,</li>
+      <li>and it’s hard to keep the cube stable against the weight of the bit.</li>
+    </ul>
+  </li>
+</ul>
 
-&lt;h1 id=&quot;the-jig&quot;&gt;The Jig&lt;/h1&gt;
+<h1 id="the-jig">The Jig</h1>
 
-&lt;p&gt;I had some leftover redwood stock already beveled to 45-degrees from a previous french cleat project. By chopping off a few inches and gluing a short lip at the base of the slope, we get a simple jig.&lt;/p&gt;
+<p>I had some leftover redwood stock already beveled to 45-degrees from a previous french cleat project. By chopping off a few inches and gluing a short lip at the base of the slope, we get a simple jig.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/45-jig/45-jig.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/45-jig/45-jig.jpg" /></p>
 
-&lt;p&gt;The slope and the lip support the cube, resulting in a compromise that makes it slightly safer and easier to drill the holes, without making it awkward to load and unload.&lt;/p&gt;
+<p>The slope and the lip support the cube, resulting in a compromise that makes it slightly safer and easier to drill the holes, without making it awkward to load and unload.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/45-jig/45-jig-press.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/45-jig/45-jig-press.jpg" /></p>
 
-&lt;h1 id=&quot;the-outcome&quot;&gt;The Outcome&lt;/h1&gt;
+<h1 id="the-outcome">The Outcome</h1>
 
-&lt;p&gt;I’ll still need a more serious jig to do more precise holes at scale, but this was all right for now. I was able to produce another small batch of hair ties in oak this weekend, with a less overhead.&lt;/p&gt;
+<p>I’ll still need a more serious jig to do more precise holes at scale, but this was all right for now. I was able to produce another small batch of hair ties in oak this weekend, with a less overhead.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/45-jig/45-jig-product.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="woodworking" /><summary type="html">An incremental improvement in safety and efficiency when drilling angled holes.</summary></entry><entry><title type="html">From Chair to Hair (Tie)</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair (Tie)" /><published>2020-09-20T03:24:30-07:00</published><updated>2020-09-20T03:24:30-07:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Carving up a big old chair into smaller goodies.&lt;/span&gt;&lt;/p&gt;
+<p><img src="/assets/img/45-jig/45-jig-product.jpg" /></p>]]></content><author><name></name></author><category term="woodworking" /><summary type="html"><![CDATA[An incremental improvement in safety and efficiency when drilling angled holes.]]></summary></entry><entry><title type="html">From Chair to Hair (Tie)</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair (Tie)" /><published>2020-09-20T03:24:30-07:00</published><updated>2020-09-20T03:24:30-07:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html"><![CDATA[<p><span class="tagline">Carving up a big old chair into smaller goodies.</span></p>
 
-&lt;p&gt;I had some 70s era chairs from a garage sale purchase, just a couple months ago. But they were in poor condition; for example, the leather had not been conditioned, the dry straps cracking or snapped in places. They hogged space in the shop (garage) too, just gathering sawdust.&lt;/p&gt;
+<p>I had some 70s era chairs from a garage sale purchase, just a couple months ago. But they were in poor condition; for example, the leather had not been conditioned, the dry straps cracking or snapped in places. They hogged space in the shop (garage) too, just gathering sawdust.</p>
 
-&lt;p&gt;I bought them as they were cheap and made of good mahogany. For most of my past projects I’ve mainly stuck to cheaper, construction grade redwood or pine, so this was a happy find.&lt;/p&gt;
+<p>I bought them as they were cheap and made of good mahogany. For most of my past projects I’ve mainly stuck to cheaper, construction grade redwood or pine, so this was a happy find.</p>
 
-&lt;p&gt;Finally, today I tried an simple mini-project with reusing the wood.&lt;/p&gt;
+<p>Finally, today I tried an simple mini-project with reusing the wood.</p>
 
-&lt;h1 id=&quot;before&quot;&gt;Before&lt;/h1&gt;
+<h1 id="before">Before</h1>
 
-&lt;p&gt;This poor fellow was selected for today’s harvest.&lt;/p&gt;
+<p>This poor fellow was selected for today’s harvest.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/chairs.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/chair-tie/chairs.jpg" /></p>
 
-&lt;h1 id=&quot;ouch&quot;&gt;Ouch&lt;/h1&gt;
+<h1 id="ouch">Ouch</h1>
 
-&lt;p&gt;The leather was labor intensive to remove cleanly due to the old nails. A few times, the nail head broke off, and I’d dig the decapitated nail stalk out of the wood.&lt;/p&gt;
+<p>The leather was labor intensive to remove cleanly due to the old nails. A few times, the nail head broke off, and I’d dig the decapitated nail stalk out of the wood.</p>
 
-&lt;p&gt;Unwisely, I also left some loose nails on the floor, and I stepped on one. It pierced through the sole of my shoes, jabbing the pad of my foot, but I stopped before it drew blood.&lt;/p&gt;
+<p>Unwisely, I also left some loose nails on the floor, and I stepped on one. It pierced through the sole of my shoes, jabbing the pad of my foot, but I stopped before it drew blood.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/foot.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/chair-tie/foot.jpg" /></p>
 
-&lt;h1 id=&quot;leather-scraps&quot;&gt;Leather Scraps&lt;/h1&gt;
+<h1 id="leather-scraps">Leather Scraps</h1>
 
-&lt;p&gt;Some leather scraps came out of the disassembly too, but those will probably go out in the next trash collection. They’re not in great condition.&lt;/p&gt;
+<p>Some leather scraps came out of the disassembly too, but those will probably go out in the next trash collection. They’re not in great condition.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/leather-scraps.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/chair-tie/leather-scraps.jpg" /></p>
 
-&lt;h1 id=&quot;salvaged-lumber&quot;&gt;Salvaged Lumber&lt;/h1&gt;
+<h1 id="salvaged-lumber">Salvaged Lumber</h1>
 
-&lt;p&gt;The boards were pretty skinny, but that’s really ok. I want to start focusing on smaller palm-sized projects anyway – things that I can start and finish in one weekend without ado.&lt;/p&gt;
+<p>The boards were pretty skinny, but that’s really ok. I want to start focusing on smaller palm-sized projects anyway – things that I can start and finish in one weekend without ado.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/chopped-chairs.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/chair-tie/chopped-chairs.jpg" /></p>
 
-&lt;h1 id=&quot;cubes&quot;&gt;Cubes&lt;/h1&gt;
+<h1 id="cubes">Cubes</h1>
 
-&lt;p&gt;One of the cross bars from the chair seat was riddled with snapped nails I couldn’t remove. So I milled out a short three-inch segment of clear wood between the nails.&lt;/p&gt;
+<p>One of the cross bars from the chair seat was riddled with snapped nails I couldn’t remove. So I milled out a short three-inch segment of clear wood between the nails.</p>
 
-&lt;p&gt;After some fiddling with the band saw and sand paper, these two cuties came about, about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&quot; x 1&quot;&lt;/code&gt; in size.&lt;/p&gt;
+<p>After some fiddling with the band saw and sand paper, these two cuties came about, about <code class="language-plaintext highlighter-rouge">1" x 1"</code> in size.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/cubes.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/chair-tie/cubes.jpg" /></p>
 
-&lt;h1 id=&quot;hair-ties&quot;&gt;Hair Ties&lt;/h1&gt;
+<h1 id="hair-ties">Hair Ties</h1>
 
-&lt;p&gt;It became a little hair tie with the help of some butcher block conditioner (it was what I had) and an elastic hair tie (donated by my roommate).&lt;/p&gt;
+<p>It became a little hair tie with the help of some butcher block conditioner (it was what I had) and an elastic hair tie (donated by my roommate).</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/chair-tie/hair-tie.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/chair-tie/hair-tie.jpg" /></p>
 
-&lt;h1 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h1&gt;
+<h1 id="next-steps">Next Steps</h1>
 
-&lt;p&gt;I’d like to try this again, with some lessons learned:&lt;/p&gt;
+<p>I’d like to try this again, with some lessons learned:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Use a lighter finish to preserve the wood’s natural color without darkening it so much.&lt;/li&gt;
-  &lt;li&gt;Use one cube per hair-tie. Two is unwieldy and makes the elastic band hard to “double-up”.&lt;/li&gt;
-  &lt;li&gt;Use a lower profile approach to fasten the hair tie terminals.&lt;/li&gt;
-  &lt;li&gt;Use a larger board to start, because running the saw for tiny objects like this can be scary. Fingers get close to blades.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Use a lighter finish to preserve the wood’s natural color without darkening it so much.</li>
+  <li>Use one cube per hair-tie. Two is unwieldy and makes the elastic band hard to “double-up”.</li>
+  <li>Use a lower profile approach to fasten the hair tie terminals.</li>
+  <li>Use a larger board to start, because running the saw for tiny objects like this can be scary. Fingers get close to blades.</li>
+</ul>
 
-&lt;p&gt;Compared to home furniture, I had fun making these basic cubes; plus I now have a proof of concept for reusing lumber from the chairs.&lt;/p&gt;
+<p>Compared to home furniture, I had fun making these basic cubes; plus I now have a proof of concept for reusing lumber from the chairs.</p>
 
-&lt;p&gt;I look forward to trying the cubes again soon, and then moving on to other project ideas with the salvaged lumber.&lt;/p&gt;</content><author><name></name></author><category term="woodworking" /><summary type="html">Carving up a big old chair into smaller goodies.</summary></entry><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T02:45:14-07:00</published><updated>2020-09-18T02:45:14-07:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;Suppose we want to compute the md5, sha1, and sha256 sums for some string “Foo Bar”. What’s wrong with this routine?&lt;/span&gt;&lt;/p&gt;
+<p>I look forward to trying the cubes again soon, and then moving on to other project ideas with the salvaged lumber.</p>]]></content><author><name></name></author><category term="woodworking" /><summary type="html"><![CDATA[Carving up a big old chair into smaller goodies.]]></summary></entry><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T02:45:14-07:00</published><updated>2020-09-18T02:45:14-07:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html"><![CDATA[<p><span class="tagline">Suppose we want to compute the md5, sha1, and sha256 sums for some string “Foo Bar”. What’s wrong with this routine?</span></p>
 
-&lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
+<h1 id="problem">Problem</h1>
 
-&lt;p&gt;Golang gives us an interface type &lt;a href=&quot;https://golang.org/pkg/hash/&quot;&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hash.Hash&lt;/code&gt; &lt;/a&gt; to be:&lt;/p&gt;
+<p>Golang gives us an interface type <a href="https://golang.org/pkg/hash/"> <code class="language-plaintext highlighter-rouge">hash.Hash</code> </a> to be:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;the common interface implemented by all hash functions.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>the common interface implemented by all hash functions.</p>
+</blockquote>
 
-&lt;p&gt;For example, the packages 
-&lt;a href=&quot;https://golang.org/pkg/crypto/md5/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crypto/md5&lt;/code&gt;&lt;/a&gt;, 
-&lt;a href=&quot;https://golang.org/pkg/crypto/sha256/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crypto/sha1&lt;/code&gt; &lt;/a&gt;, and 
-&lt;a href=&quot;https://golang.org/pkg/crypto/sha256/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crypto/sha256&lt;/code&gt; &lt;/a&gt; each define an implementation of that interface.&lt;/p&gt;
+<p>For example, the packages 
+<a href="https://golang.org/pkg/crypto/md5/"><code class="language-plaintext highlighter-rouge">crypto/md5</code></a>, 
+<a href="https://golang.org/pkg/crypto/sha256/"><code class="language-plaintext highlighter-rouge">crypto/sha1</code> </a>, and 
+<a href="https://golang.org/pkg/crypto/sha256/"><code class="language-plaintext highlighter-rouge">crypto/sha256</code> </a> each define an implementation of that interface.</p>
 
-&lt;p&gt;In the following example, we invoke the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum&lt;/code&gt; method on that interface to hash a string, “Foo Bar”, three ways. But something is wrong.&lt;/p&gt;
+<p>In the following example, we invoke the <code class="language-plaintext highlighter-rouge">Sum</code> method on that interface to hash a string, “Foo Bar”, three ways. But something is wrong.</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">package</span> <span class="n">main</span>
 
-&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;crypto/md5&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha1&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha256&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<span class="k">import</span> <span class="p">(</span>
+	<span class="s">"crypto/md5"</span>
+	<span class="s">"crypto/sha1"</span>
+	<span class="s">"crypto/sha256"</span>
+	<span class="s">"fmt"</span>
+<span class="p">)</span>
 
-&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;// convert the demo input to a byte slice&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Foo Bar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="c">// convert the demo input to a byte slice</span>
+	<span class="n">input</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"Foo Bar"</span><span class="p">)</span>
 
-	&lt;span class=&quot;c&quot;&gt;// calculate the hashes&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	<span class="c">// calculate the hashes</span>
+	<span class="n">a</span> <span class="o">:=</span> <span class="n">md5</span><span class="o">.</span><span class="n">New</span><span class="p">()</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">b</span> <span class="o">:=</span> <span class="n">sha1</span><span class="o">.</span><span class="n">New</span><span class="p">()</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">c</span> <span class="o">:=</span> <span class="n">sha256</span><span class="o">.</span><span class="n">New</span><span class="p">()</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
 
-	&lt;span class=&quot;c&quot;&gt;// print the hex-encoded hashes&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+	<span class="c">// print the hex-encoded hashes</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+<span class="p">}</span></code></pre></figure>
 
-&lt;p&gt;Here is the output:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;↳ go run main.go
+<p>Here is the output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>↳ go run main.go
 466f6f20426172d41d8cd98f00b204e9800998ecf8427e
 466f6f20426172da39a3ee5e6b4b0d3255bfef95601890afd80709
 466f6f20426172e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;h1 id=&quot;hint&quot;&gt;Hint&lt;/h1&gt;
+<h1 id="hint">Hint</h1>
 
-&lt;p&gt;Notice the prefix &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;466f6f20426172&lt;/code&gt; in each of the hash outputs. You might be surprised to find that the three hashes all coincidentally prepend the same byte sequence. That’s because this is no coincidence at all!&lt;/p&gt;
+<p>Notice the prefix <code class="language-plaintext highlighter-rouge">466f6f20426172</code> in each of the hash outputs. You might be surprised to find that the three hashes all coincidentally prepend the same byte sequence. That’s because this is no coincidence at all!</p>
 
-&lt;p&gt;If we decode the hex, we see that it actually holds the hash input “Foo Bar”! That can’t be right.&lt;/p&gt;
+<p>If we decode the hex, we see that it actually holds the hash input “Foo Bar”! That can’t be right.</p>
 
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;↳ &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;466f6f20426172 | xxd &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; | xxd
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>↳ <span class="nb">echo </span>466f6f20426172 | xxd <span class="nt">-r</span> <span class="nt">-p</span> | xxd
 00000000: 466f 6f20 4261 72                        Foo Bar
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;h1 id=&quot;answer&quot;&gt;Answer&lt;/h1&gt;
+<h1 id="answer">Answer</h1>
 
-&lt;p&gt;Let’s consult the docs for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hash.Hash&lt;/code&gt; interface:&lt;/p&gt;
+<p>Let’s consult the docs for the <code class="language-plaintext highlighter-rouge">hash.Hash</code> interface:</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hash&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;// Write (via the embedded io.Writer interface) adds more data to the running hash.&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;// It never returns an error.&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Writer&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">type</span> <span class="n">Hash</span> <span class="k">interface</span> <span class="p">{</span>
+    <span class="c">// Write (via the embedded io.Writer interface) adds more data to the running hash.</span>
+    <span class="c">// It never returns an error.</span>
+    <span class="n">io</span><span class="o">.</span><span class="n">Writer</span>
 
-    &lt;span class=&quot;c&quot;&gt;// Sum appends the current hash to b and returns the resulting slice.&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;// It does not change the underlying hash state.&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;
+    <span class="c">// Sum appends the current hash to b and returns the resulting slice.</span>
+    <span class="c">// It does not change the underlying hash state.</span>
+    <span class="n">Sum</span><span class="p">(</span><span class="n">b</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">)</span> <span class="p">[]</span><span class="kt">byte</span>
 
-    &lt;span class=&quot;c&quot;&gt;// Reset resets the Hash to its initial state.&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Reset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    <span class="c">// Reset resets the Hash to its initial state.</span>
+    <span class="n">Reset</span><span class="p">()</span>
 
-    &lt;span class=&quot;c&quot;&gt;// Size returns the number of bytes Sum will return.&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;
+    <span class="c">// Size returns the number of bytes Sum will return.</span>
+    <span class="n">Size</span><span class="p">()</span> <span class="kt">int</span>
 
-    &lt;span class=&quot;c&quot;&gt;// BlockSize returns the hash's underlying block size.&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;// The Write method must be able to accept any amount&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;// of data, but it may operate more efficiently if all writes&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;// are a multiple of the block size.&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;BlockSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    <span class="c">// BlockSize returns the hash's underlying block size.</span>
+    <span class="c">// The Write method must be able to accept any amount</span>
+    <span class="c">// of data, but it may operate more efficiently if all writes</span>
+    <span class="c">// are a multiple of the block size.</span>
+    <span class="n">BlockSize</span><span class="p">()</span> <span class="kt">int</span>
+<span class="p">}</span></code></pre></figure>
 
-&lt;p&gt;We learn that the receiver method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum&lt;/code&gt; does not do what one might intuit (or, at least &lt;em&gt;I&lt;/em&gt; was surprised). The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum&lt;/code&gt; method just concatenates its argument with a running hash of its internal buffer contents.&lt;/p&gt;
+<p>We learn that the receiver method <code class="language-plaintext highlighter-rouge">Sum</code> does not do what one might intuit (or, at least <em>I</em> was surprised). The <code class="language-plaintext highlighter-rouge">Sum</code> method just concatenates its argument with a running hash of its internal buffer contents.</p>
 
-&lt;p&gt;So, the prefix is the hex-encoded “Foo Bar” input. The tail comes from the initial state of the running hash, i.e. the hash of an empty byte sequence.&lt;/p&gt;
+<p>So, the prefix is the hex-encoded “Foo Bar” input. The tail comes from the initial state of the running hash, i.e. the hash of an empty byte sequence.</p>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt;Prefix&lt;/th&gt;
-      &lt;th&gt;Blank Hash&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;md5&lt;/td&gt;
-      &lt;td&gt;466f6f20426172&lt;/td&gt;
-      &lt;td&gt;d41d8cd98f00b204e9800998ecf8427e&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;sha1&lt;/td&gt;
-      &lt;td&gt;466f6f20426172&lt;/td&gt;
-      &lt;td&gt;da39a3ee5e6b4b0d3255bfef95601890afd80709&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;sha256&lt;/td&gt;
-      &lt;td&gt;466f6f20426172&lt;/td&gt;
-      &lt;td&gt;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Prefix</th>
+      <th>Blank Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>md5</td>
+      <td>466f6f20426172</td>
+      <td>d41d8cd98f00b204e9800998ecf8427e</td>
+    </tr>
+    <tr>
+      <td>sha1</td>
+      <td>466f6f20426172</td>
+      <td>da39a3ee5e6b4b0d3255bfef95601890afd80709</td>
+    </tr>
+    <tr>
+      <td>sha256</td>
+      <td>466f6f20426172</td>
+      <td>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;How do we fix the example?&lt;/p&gt;
+<p>How do we fix the example?</p>
 
-&lt;h1 id=&quot;correct-usage&quot;&gt;Correct Usage&lt;/h1&gt;
+<h1 id="correct-usage">Correct Usage</h1>
 
-&lt;p&gt;We can use the embedded &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;io.Writer&lt;/code&gt; methods to push the input string onto the hash’s internal buffer, and set the prefix to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil&lt;/code&gt;. Alternatively, just use one of the various convenience methods provided in the packages.&lt;/p&gt;
+<p>We can use the embedded <code class="language-plaintext highlighter-rouge">io.Writer</code> methods to push the input string onto the hash’s internal buffer, and set the prefix to <code class="language-plaintext highlighter-rouge">nil</code>. Alternatively, just use one of the various convenience methods provided in the packages.</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">package</span> <span class="n">main</span>
 
-&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;crypto/md5&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha1&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;crypto/sha256&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<span class="k">import</span> <span class="p">(</span>
+	<span class="s">"crypto/md5"</span>
+	<span class="s">"crypto/sha1"</span>
+	<span class="s">"crypto/sha256"</span>
+	<span class="s">"fmt"</span>
+<span class="p">)</span>
 
-&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;// convert the demo input to a byte slice&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Foo Bar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="c">// convert the demo input to a byte slice</span>
+	<span class="n">input</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">(</span><span class="s">"Foo Bar"</span><span class="p">)</span>
 
-	&lt;span class=&quot;c&quot;&gt;// calculate the hashes&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;ha&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;ha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ha&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	<span class="c">// calculate the hashes</span>
+	<span class="n">ha</span> <span class="o">:=</span> <span class="n">md5</span><span class="o">.</span><span class="n">New</span><span class="p">()</span>
+	<span class="n">ha</span><span class="o">.</span><span class="n">Write</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">a</span> <span class="o">:=</span> <span class="n">ha</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="no">nil</span><span class="p">)</span>
 
-	&lt;span class=&quot;n&quot;&gt;hb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;hb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	<span class="n">hb</span> <span class="o">:=</span> <span class="n">sha1</span><span class="o">.</span><span class="n">New</span><span class="p">()</span>
+	<span class="n">hb</span><span class="o">.</span><span class="n">Write</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">b</span> <span class="o">:=</span> <span class="n">hb</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="no">nil</span><span class="p">)</span>
 
-	&lt;span class=&quot;n&quot;&gt;hc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;hc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	<span class="n">hc</span> <span class="o">:=</span> <span class="n">sha256</span><span class="o">.</span><span class="n">New</span><span class="p">()</span>
+	<span class="n">hc</span><span class="o">.</span><span class="n">Write</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">c</span> <span class="o">:=</span> <span class="n">hc</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="no">nil</span><span class="p">)</span>
 
-	&lt;span class=&quot;c&quot;&gt;// alternate: calculate the hashes&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;alta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;altb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;altc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sha256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sum256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	<span class="c">// alternate: calculate the hashes</span>
+	<span class="n">alta</span> <span class="o">:=</span> <span class="n">md5</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">altb</span> <span class="o">:=</span> <span class="n">sha1</span><span class="o">.</span><span class="n">Sum</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
+	<span class="n">altc</span> <span class="o">:=</span> <span class="n">sha256</span><span class="o">.</span><span class="n">Sum256</span><span class="p">(</span><span class="n">input</span><span class="p">)</span>
 
-	&lt;span class=&quot;c&quot;&gt;// print the hex-encoded hashes&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;altb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;%x&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;altc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+	<span class="c">// print the hex-encoded hashes</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">alta</span><span class="p">)</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">altb</span><span class="p">)</span>
+	<span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">altc</span><span class="p">)</span>
+<span class="p">}</span></code></pre></figure>
 
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+<h1 id="conclusion">Conclusion</h1>
 
-&lt;p&gt;If you’re a meticulous, hawk-eyed reader of the docs, then you’ll likely have found this exercise pretty silly. But I sometimes tend to skim the details, especially when the function names look &lt;em&gt;so&lt;/em&gt; very self-explanatory and simple. For example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sum([]byte) []byte&lt;/code&gt; on a hash interface.&lt;/p&gt;
+<p>If you’re a meticulous, hawk-eyed reader of the docs, then you’ll likely have found this exercise pretty silly. But I sometimes tend to skim the details, especially when the function names look <em>so</em> very self-explanatory and simple. For example, <code class="language-plaintext highlighter-rouge">Sum([]byte) []byte</code> on a hash interface.</p>
 
-&lt;p&gt;In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.&lt;/p&gt;</content><author><name></name></author><category term="golang" /><category term="code" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html">Suppose we want to compute the md5, sha1, and sha256 sums for some string &quot;Foo Bar&quot;. What's wrong with this routine?</summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html">&lt;p&gt;&lt;span class=&quot;tagline&quot;&gt;They’re powerful and easy to use, but be careful when comparing their string representations.&lt;/span&gt;&lt;/p&gt;
+<p>In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.</p>]]></content><author><name></name></author><category term="golang" /><category term="code" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html"><![CDATA[Suppose we want to compute the md5, sha1, and sha256 sums for some string "Foo Bar". What's wrong with this routine?]]></summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html"><![CDATA[<p><span class="tagline">They’re powerful and easy to use, but be careful when comparing their string representations.</span></p>
 
-&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
-&lt;p&gt;UUIDs are useful – the id space is large enough that, if ids are generated by some standard algorithm, they are effectively &lt;em&gt;globally&lt;/em&gt; unique. In AdTech, for example, mobile device identifiers are commonly implemented as UUID. They can then be guaranteed unique across all devices but still be reset locally without updating some remote, central registry.&lt;/p&gt;
+<h1 id="background">Background</h1>
+<p>UUIDs are useful – the id space is large enough that, if ids are generated by some standard algorithm, they are effectively <em>globally</em> unique. In AdTech, for example, mobile device identifiers are commonly implemented as UUID. They can then be guaranteed unique across all devices but still be reset locally without updating some remote, central registry.</p>
 
-&lt;p&gt;When marshaled to the canonical &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8-4-4-4-12&lt;/code&gt; pattern of hyphen-delimited hexadecimal characters, these 128-bit values are really quite clean to read (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EA7583CD-A667-48BC-B806-42ECB2B48606&lt;/code&gt;). And, in my experience, these tidy, human-readable strings are the most popular mode of UUID exchange.&lt;/p&gt;
+<p>When marshaled to the canonical <code class="language-plaintext highlighter-rouge">8-4-4-4-12</code> pattern of hyphen-delimited hexadecimal characters, these 128-bit values are really quite clean to read (e.g. <code class="language-plaintext highlighter-rouge">EA7583CD-A667-48BC-B806-42ECB2B48606</code>). And, in my experience, these tidy, human-readable strings are the most popular mode of UUID exchange.</p>
 
-&lt;h1 id=&quot;a-nuance&quot;&gt;A Nuance&lt;/h1&gt;
+<h1 id="a-nuance">A Nuance</h1>
 
-&lt;p&gt;Despite that easy legibility, there’s also a simple pitfall to beware:&lt;/p&gt;
+<p>Despite that easy legibility, there’s also a simple pitfall to beware:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Hexadecimal encodings regularly comprise upper &lt;em&gt;or&lt;/em&gt; lower casings for alphabetical characters A-F.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>Hexadecimal encodings regularly comprise upper <em>or</em> lower casings for alphabetical characters A-F.</p>
+</blockquote>
 
-&lt;p&gt;Consider these mobile device identifiers for Android (AAID) and iOS (IDFA):&lt;/p&gt;
+<p>Consider these mobile device identifiers for Android (AAID) and iOS (IDFA):</p>
 
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;IDFA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;EA7583CD-A667-48BC-B806-42ECB2B48606&quot;&lt;/span&gt;
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">IDFA</span><span class="o">=</span><span class="s2">"EA7583CD-A667-48BC-B806-42ECB2B48606"</span>
 
-&lt;span class=&quot;nv&quot;&gt;AAID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;cdda802e-fb9c-47ad-9866-0794d394c912&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<span class="nv">AAID</span><span class="o">=</span><span class="s2">"cdda802e-fb9c-47ad-9866-0794d394c912"</span>
+</code></pre></div></div>
 
-&lt;p&gt;Both are valid examples of canonical UUID strings.&lt;/p&gt;
+<p>Both are valid examples of canonical UUID strings.</p>
 
-&lt;h1 id=&quot;the-pitfall&quot;&gt;The Pitfall&lt;/h1&gt;
+<h1 id="the-pitfall">The Pitfall</h1>
 
-&lt;p&gt;Suppose a naive implementation of a UUID comparator in Golang.&lt;/p&gt;
+<p>Suppose a naive implementation of a UUID comparator in Golang.</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;errors&quot;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">import</span>  <span class="p">(</span>
+    <span class="s">"errors"</span>
+    <span class="s">"fmt"</span>
+<span class="p">)</span>
 
-&lt;span class=&quot;c&quot;&gt;// Equals checks the input uuids for equivalence.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Equals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;validUUID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%v is not a valid uuid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;validUUID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%v is not a valid uuid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;	
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<span class="c">// Equals checks the input uuids for equivalence.</span>
+<span class="k">func</span> <span class="n">Equals</span><span class="p">(</span><span class="n">uuidA</span> <span class="kt">string</span><span class="p">,</span> <span class="n">uuidB</span> <span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="kt">bool</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="o">!</span><span class="n">validUUID</span><span class="p">(</span><span class="n">uuidA</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">msg</span> <span class="o">:=</span> <span class="n">fmt</span><span class="o">.</span><span class="n">Sprintf</span><span class="p">(</span><span class="s">"%v is not a valid uuid"</span><span class="p">,</span> <span class="n">uuidA</span><span class="p">)</span>
+		<span class="k">return</span> <span class="no">false</span><span class="p">,</span> <span class="n">errors</span><span class="o">.</span><span class="n">New</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="o">!</span><span class="n">validUUID</span><span class="p">(</span><span class="n">uuidB</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">msg</span> <span class="o">:=</span> <span class="n">fmt</span><span class="o">.</span><span class="n">Sprintf</span><span class="p">(</span><span class="s">"%v is not a valid uuid"</span><span class="p">,</span> <span class="n">uuidB</span><span class="p">)</span>
+		<span class="k">return</span> <span class="no">false</span><span class="p">,</span> <span class="n">errors</span><span class="o">.</span><span class="n">New</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="n">uuidA</span> <span class="o">==</span> <span class="n">uuidB</span><span class="p">,</span> <span class="no">nil</span>	
+<span class="p">}</span></code></pre></figure>
 
-&lt;p&gt;If, say, you were implementing an opt-out filter to remove device ids from your targeted advertising campaign, then you might get some false negatives by surprise! For example, a candidate UUID &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EA7583CD-A667-48BC-B806-42ECB2B48606&lt;/code&gt; would not match the UUID in your filter blacklist &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ea7583cd-a667-48bc-b806-42ecb2b48606&lt;/code&gt;, although they represent the same 128-bit UUID.&lt;/p&gt;
+<p>If, say, you were implementing an opt-out filter to remove device ids from your targeted advertising campaign, then you might get some false negatives by surprise! For example, a candidate UUID <code class="language-plaintext highlighter-rouge">EA7583CD-A667-48BC-B806-42ECB2B48606</code> would not match the UUID in your filter blacklist <code class="language-plaintext highlighter-rouge">ea7583cd-a667-48bc-b806-42ecb2b48606</code>, although they represent the same 128-bit UUID.</p>
 
-&lt;h1 id=&quot;some-alternatives&quot;&gt;Some Alternatives&lt;/h1&gt;
+<h1 id="some-alternatives">Some Alternatives</h1>
 
-&lt;p&gt;To avoid the accident above, one approach you might try would be to normalize the strings to all use consistent casing:&lt;/p&gt;
+<p>To avoid the accident above, one approach you might try would be to normalize the strings to all use consistent casing:</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;errors&quot;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;strings&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">import</span>  <span class="p">(</span>
+    <span class="s">"errors"</span>
+    <span class="s">"fmt"</span>
+    <span class="s">"strings"</span>
+<span class="p">)</span>
 
-&lt;span class=&quot;c&quot;&gt;// Equals checks the input uuids for equivalence.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Equals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;normA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ToLower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;normB&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ToLower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;validUUID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;normA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%v is not a valid uuid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;validUUID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;normB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%v is not a valid uuid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;	
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<span class="c">// Equals checks the input uuids for equivalence.</span>
+<span class="k">func</span> <span class="n">Equals</span><span class="p">(</span><span class="n">uuidA</span> <span class="kt">string</span><span class="p">,</span> <span class="n">uuidB</span> <span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="kt">bool</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">normA</span> <span class="o">:=</span> <span class="n">strings</span><span class="o">.</span><span class="n">ToLower</span><span class="p">(</span><span class="n">uuidA</span><span class="p">)</span>
+    <span class="n">normB</span> <span class="o">:=</span> <span class="n">strings</span><span class="o">.</span><span class="n">ToLower</span><span class="p">(</span><span class="n">uuidB</span><span class="p">)</span>
+	<span class="k">if</span> <span class="o">!</span><span class="n">validUUID</span><span class="p">(</span><span class="n">normA</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">msg</span> <span class="o">:=</span> <span class="n">fmt</span><span class="o">.</span><span class="n">Sprintf</span><span class="p">(</span><span class="s">"%v is not a valid uuid"</span><span class="p">,</span> <span class="n">uuidA</span><span class="p">)</span>
+		<span class="k">return</span> <span class="no">false</span><span class="p">,</span> <span class="n">errors</span><span class="o">.</span><span class="n">New</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="o">!</span><span class="n">validUUID</span><span class="p">(</span><span class="n">normB</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">msg</span> <span class="o">:=</span> <span class="n">fmt</span><span class="o">.</span><span class="n">Sprintf</span><span class="p">(</span><span class="s">"%v is not a valid uuid"</span><span class="p">,</span> <span class="n">uuidB</span><span class="p">)</span>
+		<span class="k">return</span> <span class="no">false</span><span class="p">,</span> <span class="n">errors</span><span class="o">.</span><span class="n">New</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="n">uuidA</span> <span class="o">==</span> <span class="n">uuidB</span><span class="p">,</span> <span class="no">nil</span>	
+<span class="p">}</span></code></pre></figure>
 
-&lt;p&gt;Or, better yet, just parse the string representation and compare the unencoded bytes for even better integrity. With a nice library, it’s both easy and clean:&lt;/p&gt;
+<p>Or, better yet, just parse the string representation and compare the unencoded bytes for even better integrity. With a nice library, it’s both easy and clean:</p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
-	&lt;span class=&quot;s&quot;&gt;&quot;github.com/satori/go.uuid&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">import</span> <span class="p">(</span>
+	<span class="s">"fmt"</span>
+	<span class="s">"github.com/satori/go.uuid"</span>
+<span class="p">)</span>
 
-&lt;span class=&quot;c&quot;&gt;// Equals checks the input uuids for equivalence.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Equals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FromString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FromString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uuidB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uuid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Equal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;	
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<span class="c">// Equals checks the input uuids for equivalence.</span>
+<span class="k">func</span> <span class="n">Equals</span><span class="p">(</span><span class="n">uuidA</span> <span class="kt">string</span><span class="p">,</span> <span class="n">uuidB</span> <span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="kt">bool</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">a</span><span class="p">,</span> <span class="n">err</span> <span class="o">:=</span> <span class="n">uuid</span><span class="o">.</span><span class="n">FromString</span><span class="p">(</span><span class="n">uuidA</span><span class="p">)</span>
+	<span class="k">if</span> <span class="n">err</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="no">false</span><span class="p">,</span> <span class="n">err</span>
+	<span class="p">}</span>
+	<span class="n">b</span><span class="p">,</span> <span class="n">err</span> <span class="o">:=</span> <span class="n">uuid</span><span class="o">.</span><span class="n">FromString</span><span class="p">(</span><span class="n">uuidB</span><span class="p">)</span>
+	<span class="k">if</span> <span class="n">err</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="no">false</span><span class="p">,</span> <span class="n">err</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="n">uuid</span><span class="o">.</span><span class="n">Equal</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span> <span class="no">nil</span>	
+<span class="p">}</span></code></pre></figure>
 
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+<h1 id="conclusion">Conclusion</h1>
 
-&lt;p&gt;In practice, if the UUIDs you process are sourced from the same origin, they’ll mostly likely be consistent in representation (exclusively using upper case or exclusively using lower case). So even if you goof and introduce a potential bug through a naive UUID comparison, you would probably get away unscathed.&lt;/p&gt;
+<p>In practice, if the UUIDs you process are sourced from the same origin, they’ll mostly likely be consistent in representation (exclusively using upper case or exclusively using lower case). So even if you goof and introduce a potential bug through a naive UUID comparison, you would probably get away unscathed.</p>
 
-&lt;p&gt;But if the UUIDs you process are sourced from multiple origins, then handling the UUIDs more robustly just might save your butt. After all, one cannot take for granted that a representation being valid and canonical means there are no practical variations to be checked and controlled against.&lt;/p&gt;</content><author><name></name></author><category term="uuid" /><category term="idfa" /><category term="aaid" /><category term="golang" /><category term="code" /><summary type="html">They're powerful and easy to use, but be careful when comparing their string representations.</summary></entry><entry><title type="html">Welcome!</title><link href="https://blog.alanch.am/2020/08/05/welcome.html" rel="alternate" type="text/html" title="Welcome!" /><published>2020-08-05T01:58:14-07:00</published><updated>2020-08-05T01:58:14-07:00</updated><id>https://blog.alanch.am/2020/08/05/welcome</id><content type="html" xml:base="https://blog.alanch.am/2020/08/05/welcome.html">&lt;p&gt;Hello world! Let’s have some fun – Liquid templating looks pretty neat : )&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="ruby" /><category term="other" /><category term="liquid" /><summary type="html">Hello world! Let’s have some fun – Liquid templating looks pretty neat : )</summary></entry></feed>
+<p>But if the UUIDs you process are sourced from multiple origins, then handling the UUIDs more robustly just might save your butt. After all, one cannot take for granted that a representation being valid and canonical means there are no practical variations to be checked and controlled against.</p>]]></content><author><name></name></author><category term="uuid" /><category term="idfa" /><category term="aaid" /><category term="golang" /><category term="code" /><summary type="html"><![CDATA[They're powerful and easy to use, but be careful when comparing their string representations.]]></summary></entry><entry><title type="html">Welcome!</title><link href="https://blog.alanch.am/2020/08/05/welcome.html" rel="alternate" type="text/html" title="Welcome!" /><published>2020-08-05T01:58:14-07:00</published><updated>2020-08-05T01:58:14-07:00</updated><id>https://blog.alanch.am/2020/08/05/welcome</id><content type="html" xml:base="https://blog.alanch.am/2020/08/05/welcome.html"><![CDATA[<p>Hello world! Let’s have some fun – Liquid templating looks pretty neat : )</p>]]></content><author><name></name></author><category term="jekyll" /><category term="ruby" /><category term="other" /><category term="liquid" /><summary type="html"><![CDATA[Hello world! Let’s have some fun – Liquid templating looks pretty neat : )]]></summary></entry></feed>

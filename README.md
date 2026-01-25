@@ -6,12 +6,21 @@ Come visit any time at https://blog.alanch.am :)
 
 ## Setup
 
+Requires Ruby 3.3+. Using [mise](https://mise.jdx.dev/) is recommended:
+
 ```sh
-gem install bundler
+mise install
 bundle install
 ```
 
-## Build
+## Development
+
+Serve locally with live reload:
+```sh
+make serve
+```
+
+Build static site to `docs/`:
 ```sh
 make build
 ```
