@@ -204,6 +204,15 @@
   color: $grey-color;
 }
 
+.post-badge {
+  font-size: $small-font-size;
+  color: $grey-color;
+  background-color: $grey-color-light;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1.25);

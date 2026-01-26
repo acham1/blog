@@ -9,14 +9,18 @@ layout: default
 
   {{ content }}
 
-  {%- for epic in site.epics -%}
-  <h3 class="post-list-heading">{{epic.display}}</h3>
   <ul class="post-list">
     {%- for post in site.posts -%}
-    {%- if post.tags contains epic.tag -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {%- for tag in post.tags -%}
+        {%- for epic in site.epics -%}
+          {%- if epic.tag == tag -%}
+            <span class="post-badge">{{ epic.display }}</span>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
       </a>
@@ -24,8 +28,6 @@ layout: default
       {{ post.excerpt }}
       {%- endif -%}
     </li>
-    {%- endif -%}
     {%- endfor -%}
   </ul>
-  {%- endfor -%}
 </div>

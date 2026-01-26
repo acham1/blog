@@ -403,6 +403,15 @@ table td {
   color: #828282;
 }
 
+.post-badge {
+  font-size: 14px;
+  color: #828282;
+  background-color: #e8e8e8;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
 .post-link {
   display: block;
   font-size: 20px;

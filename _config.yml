@@ -34,6 +34,8 @@ epics:
     tag: woodworking
   - display: Financial Markets
     tag: financial-markets
+  - display: Musings
+    tag: musings
   - display: Other
     tag: other
 
