@@ -22,7 +22,7 @@ You don't need to be married to:
 
 Marriage makes some of these easier, sure. But none of them *require* it. You don't even need a relationship to live a fulfilling life.
 
-So why get married?
+So why would I want to get married?
 
 ---
 
@@ -30,9 +30,9 @@ The world feels uncertain. Career. Finances. Politics. Climate. Culture.
 
 Marriage is an anchor. If you love someone and they love you back, and you're both committed, marriage says: *amidst all this chaos, here is one thing that's settled.*
 
-That just feels good.
+I imagine that would feel good.
 
-Maybe marriage is useful. Maybe it's practical. But that's not why. It's not about what marriage *does*—it's about what it *feels like*. Comfort. Joy. One less thing to figure out in a world that poses plenty to figure out.
+Maybe marriage is useful. Maybe it's practical. But that's not why I'd want it. It's not about what marriage *does*—it's about what I imagine it would *feel like*. Comfort. Joy. One less thing to figure out in a world that poses plenty to figure out.
 
 ---
 
