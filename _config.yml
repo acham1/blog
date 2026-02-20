@@ -39,6 +39,9 @@ epics:
   - display: Other
     tag: other
 
+# Comments
+giscus: true
+
 # Social
 twitter_username: acham1
 github_username: acham1
