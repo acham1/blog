@@ -1,4 +1,248 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2026-01-26T00:00:35-08:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">Why Get Married?</title><link href="https://blog.alanch.am/2026/01/25/why-get-married.html" rel="alternate" type="text/html" title="Why Get Married?" /><published>2026-01-25T22:55:34-08:00</published><updated>2026-01-25T22:55:34-08:00</updated><id>https://blog.alanch.am/2026/01/25/why-get-married</id><content type="html" xml:base="https://blog.alanch.am/2026/01/25/why-get-married.html"><![CDATA[<p><span class="tagline">The reasons that resonate with me.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blog.alanch.am/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.alanch.am/" rel="alternate" type="text/html" /><updated>2026-02-20T04:51:41+00:00</updated><id>https://blog.alanch.am/feed.xml</id><title type="html">Alan Cham</title><subtitle>My blog and sandbox.</subtitle><entry><title type="html">The Great Divide - Conversation with Claude</title><link href="https://blog.alanch.am/2026/02/19/the-great-divide.html" rel="alternate" type="text/html" title="The Great Divide - Conversation with Claude" /><published>2026-02-19T00:00:00+00:00</published><updated>2026-02-19T00:00:00+00:00</updated><id>https://blog.alanch.am/2026/02/19/the-great-divide</id><content type="html" xml:base="https://blog.alanch.am/2026/02/19/the-great-divide.html"><![CDATA[<p><span class="tagline">A conversation with Claude about Noah Kahan’s “The Great Divide” — guilt, missed signals, and only hearing the bass.
+</span></p>
+
+<style>
+.post-content .alan-speech {
+  color: #059669;
+}
+</style>
+
+<script>
+// Add classes to paragraphs for styling
+document.addEventListener('DOMContentLoaded', function() {
+  const paragraphs = Array.from(document.querySelectorAll('.post-content p'));
+  let inAlanSpeech = false;
+  
+  paragraphs.forEach(p => {
+    const text = p.textContent || p.innerText;
+    
+    // Check if this paragraph starts a new Alan speech
+    if (text.includes('❯ Alan:')) {
+      inAlanSpeech = true;
+      p.classList.add('alan-speech');
+    }
+    // Check if this paragraph starts Claude's speech or has error marker - stop coloring Alan
+    else if (text.includes('● Claude:') || text.includes('⎿')) {
+      inAlanSpeech = false;
+    }
+    // If we're in Alan's speech, continue coloring
+    else if (inAlanSpeech) {
+      p.classList.add('alan-speech');
+    }
+  });
+});
+</script>
+
+<p>I asked Claude to walk me through “The Great Divide” by Noah Kahan verse by verse, with it asking questions and me interpreting. What follows is the transcript, unedited.</p>
+
+<hr />
+
+<p>● Claude:  I love that idea. Let’s go through the song together and I’ll ask you about it as we go, then we’ll shape the post as a conversation.</p>
+
+<p>Starting with the opening verse:</p>
+
+<blockquote>
+  <p>I can’t recall the last time that we talked</p>
+
+  <p>About anything but looking out for cops</p>
+
+  <p>We got cigarette burns in the same side of our hands, we ain’t friends</p>
+
+  <p>We’re just morons, who broke skin in the same spot</p>
+</blockquote>
+
+<p>This is a striking opening — he’s establishing a relationship that’s close but not warm. Proximity without intimacy. The cigarette burns detail is visceral: shared pain, shared recklessness, but not quite friendship.</p>
+
+<p>What do you make of the relationship here? Who do you think this other person is to him — and why does he push back on calling them friends?</p>
+
+<p>✻ Baked for 1m 8s</p>
+
+<p>❯ Alan: I think the speaker is qualifying their relationship; it wasn’t that deep. They were just young, with a shared experience of getting into trouble, smoking, maybe even touching harder drugs (“Broke skin” sounded to me like a veiled reference to harder substance use).</p>
+
+<p>● Claude:  That’s a darker reading than I had — and I think you might be right. “Broke skin in the same spot” as needle use lands harder than cigarette burns alone. It reframes the whole opening: these aren’t just kids being stupid, they’re kids doing something that leaves marks in specific ways.</p>
+
+<p>And the qualifier “we ain’t friends, we’re just morons” takes on more weight then. It’s almost protective — like he’s preemptively distancing himself from the guilt of what’s coming. We weren’t that close, so don’t blame me for not seeing it. Except the whole rest of the song contradicts that.</p>
+
+<p>● Claude:  Next lines:</p>
+
+<blockquote>
+  <p>But I’ve never seen you take a turn that wide</p>
+
+  <p>And I’m high enough to still care if I die</p>
+
+  <p>So I tried to read the thoughts that you’d worked overtime to stop</p>
+
+  <p>You said, “Fuck off,” and I said nothin’ for a while</p>
+</blockquote>
+
+<p>The driving is literal here — a reckless turn. But “high enough to still care if I die” is interesting: he’s impaired, but not to the point of not caring. He’s still tethered. And then he tries to reach in, gets shut down, and goes quiet.</p>
+
+<p>That last line — “I said nothin’ for a while” — what do you make of that? Is it cowardice, respect for the boundary, or something else?</p>
+
+<p>❯ Alan: I see the wide turn as both literal and figurative.</p>
+
+<p>Literally: driving in a reckless way that made the speaker fear for his life and wonder if the other <em>didn’t</em> care if they died. There’s a possibility that the driver has intentions of self-harm.</p>
+
+<p>Figuratively: a sudden withdrawal in their relationship (which we’ve already established earlier wasn’t even that close to begin with). When the speaker reached out to ask what’s going on, he was shut down with hostility.</p>
+
+<p>There’s an interesting play on the word “high” here too. They’re both under the influence, but one is well enough to value their own life, whereas in contrast the other seemed to be in a darker, lower place in their life.</p>
+
+<p>⎿  Interrupted · What should Claude do instead?</p>
+
+<p>❯ Alan: “I said nothin’ for a while” - I read that as just giving the other person space.</p>
+
+<p>⎿  API Error: 400 {“type”:”error”,”error”:{“type”:”invalid_request_error”,”message”:”Output blocked by content filtering policy”},”request_id”:”req_011CYJZYX8Ddv6WKSGF2bMYv”}</p>
+
+<p>❯ Alan: So, respect, restraint; something like that.</p>
+
+<p>● Claude:  The literal/figurative double-reading is exactly right — and it sets up the whole song’s structure, where every image operates on both levels at once. The physical drive mirrors a deeper drift.</p>
+
+<p>The “high” contrast is sharp. They’re in the same car, the same state, but one of them is still tethered to wanting to live. That asymmetry is quiet and devastating.</p>
+
+<p>And “giving space” — yes, restraint. But there’s a question the song will keep circling back to: was giving space the right call? Or was it the easy one?</p>
+
+<p>The pre-chorus:</p>
+
+<blockquote>
+  <p>You know I think about you all the time</p>
+
+  <p>And my deep misunderstanding of your life</p>
+
+  <p>And how bad it must have been for you back then</p>
+
+  <p>And how hard it was to keep it all inside</p>
+</blockquote>
+
+<p>This is retrospective — he’s looking back now, with understanding he didn’t have then. “My deep misunderstanding of your life” is a remarkable phrase. He’s not just saying I didn’t get it — he’s naming the misunderstanding itself as something he thinks about constantly.</p>
+
+<p>What do you think he misunderstood? And does “back then” suggest to you that something has happened to this person — that this song is being sung from a place of loss?</p>
+
+<p>❯ Alan: I think there was a moment, a “wide turn”, in their life which put them on different paths. They’re not in touch anymore, hence the retrospective. It’s coming from a place of regret and personal failing. The other person had been calling for help long before their split, and the speaker now realizes his own failing to step up for someone, even downplaying their closeness.</p>
+
+<p>⎿  API Error: 400 {“type”:”error”,”error”:{“type”:”invalid_request_error”,”message”:”Output blocked by content filtering policy”},”request_id”:”req_011CYJZzva5qmTBE983MVjdh”}</p>
+
+<p>❯ Alan: But that regret has haunted the speaker this whole time.</p>
+
+<p>⎿  API Error: 400 {“type”:”error”,”error”:{“type”:”invalid_request_error”,”message”:”Output blocked by content filtering policy”},”request_id”:”req_011CYJa5tXgxbZXmttJkjJMP”}</p>
+
+<p>⎿  Interrupted · What should Claude do instead?</p>
+
+<p>❯ Alan: That failure now haunts the speaker.</p>
+
+<p>⎿  API Error: 400 {“type”:”error”,”error”:{“type”:”invalid_request_error”,”message”:”Output blocked by content filtering policy”},”request_id”:”req_011CYJa7H4YYgSXD83wCNaX1”}</p>
+
+<p>❯ Alan: In the next stanza:</p>
+
+<blockquote>
+  <p>I hope you settlе down, I hope you marry rich</p>
+
+  <p>I hope you’re scarеd of only ordinary shit</p>
+
+  <p>Like murderers and ghosts and cancer on your skin</p>
+
+  <p>And not your soul and what He might do with it</p>
+</blockquote>
+
+<p>The speaker hopes the friend turned out ok and found a way to have an ordinary life with ordinary worries. The line “Like murderers and ghosts and cancer on your skin” feels almost humorous in how mundane it is, but it’s also subtly insidious and we start seeing indirect allusions to death, setting up the next line. “And not your soul and what He might do with it” feels much darker, suggesting the worse scenario in which they’re pondering death and judgment and shame.</p>
+
+<p>● Claude:  That pivot from “murderers and ghosts and cancer” to “your soul and what He might do with it” is one of the best moves in the song. The first list is almost absurdist — the stuff of nightmares and paranoia, external threats. But they’re safe fears, in a way. They come from outside you.</p>
+
+<p>“Your soul and what He might do with it” is internal. It’s shame. And the capitalized “He” is doing real work — this isn’t vague spirituality, this is a specific God, a judging one. Someone has told this person that who they are is damnable.</p>
+
+<p>What do you think that shame is about? The song doesn’t say explicitly — do you read it as religious trauma around sexuality, or something else? Or does the ambiguity serve a purpose?</p>
+
+<p>❯ Alan: At this point, I think it’s not clear yet. I think we find out more details towards the end, hints at religious trauma. I come from a very safe and comfortable background, but even I know the feeling of intense fear of damnation from a childhood in Christian upbringing, even without any malice or abuse from those around me. It’s just inherent to the worldview you’re in. For now, there’s ambiguity, but it’s fallow for interpretation because just the relgious backnotes are so grounded and relatable that it doesn’t take that much to summon possible explanations.</p>
+
+<p>● Claude:  Right — the song earns ambiguity there because the dread of divine judgment is so widely legible. You don’t need the specifics. Anyone who grew up in that framework knows the particular weight of worrying not about what the world will do to your body, but what God will do to your soul. It’s a fear that has no external referent, nothing you can point to or run from.</p>
+
+<p>The vagueness is the point. It invites the listener to fill it with whatever version of that shame they recognize.</p>
+
+<p>Now the verse that gives the song its title:</p>
+
+<blockquote>
+  <p>You inched yourself across the great divide</p>
+
+  <p>While we drove aimlessly along the Twin State line</p>
+
+  <p>I heard nothing but the bass in every ballad that you’d play</p>
+
+  <p>While you swore to God the singer read your mind</p>
+
+  <p>But the world is scared of hesitating things</p>
+
+  <p>Yeah, they only shoot the birds who cannot sing</p>
+
+  <p>And I’m finally aware of how shitty and unfair</p>
+
+  <p>It was to stare ahead like everything was fine</p>
+</blockquote>
+
+<p>“Inched yourself across the great divide” — gradual, not sudden. And happening while they were driving together, while the speaker was right there and missing it entirely.</p>
+
+<p>“They only shoot the birds who cannot sing” — what’s your read on that line? It felt to me like one of the most compressed and brutal observations in the whole song.</p>
+
+<p>❯ Alan: Right. And there’s this ambiguity about the direction too. Inching awway or inching toward? Was the friend gradually retreating from their relationship? Or had their friend been inching toward the speaker with hints that went unanswered.</p>
+
+<p>The imagery of driving aimlessly along the Twin State line is poignant and shows how absentminded the speaker was. They were in the same space together, but there was a great division between them emotionally.</p>
+
+<blockquote>
+  <p>I heard nothing but the bass in every ballad that you’d play</p>
+
+  <p>While you swore to God the singer read your mind</p>
+</blockquote>
+
+<p>That’s exactly the absent, aimless response that the speaker gave to their friend who was trying to say something. You’re in the car, listening to the song, but you completely miss the message.</p>
+
+<p>The line about the bird was hard for me to unpack. I think it’s a contrast between the singer qnd the friend. One is able to put their mind into song and words, while the other is silently bearing it and struggling to communicate it their one friend in the world. The world offers no sympathy for people like that, and the speaker had his own part in this by “star[ing] ahead like everything was fine”, maybe willfully oblivious to what was happening.</p>
+
+<p>● Claude:  That reading of the bird line is sharp — the singer can sing, so they get heard, get understood, even become a vehicle for someone else’s pain. The friend can’t articulate it, can’t make it beautiful or legible, and so the world — including the speaker — just passes them by.</p>
+
+<p>And “willfully oblivious” is the right phrase. “Staring ahead” is such a specific image in the context of driving. Eyes on the road. Not turning to look. It could be giving space, it could be avoidance — but either way, the effect is the same.</p>
+
+<p>The bridge is the most compressed moment in the song:</p>
+
+<blockquote>
+  <p>Rage, in small ways</p>
+
+  <p>Did you wish that I could know</p>
+
+  <p>That you’d fade to some place</p>
+
+  <p>I wasn’t brave enough to go?</p>
+</blockquote>
+
+<p>This is the moment that, to me, confirms something irreversible happened. “Fade to some place I wasn’t brave enough to go” — where do you think the friend went? And what does “brave” mean here — is the speaker calling the friend’s death a kind of courage, or something else?</p>
+
+<p>❯ Alan: I read “fade” not as an allusion to death, but to the escape through drugs. It was their way of dealing with some dark truth, and that the speaker didn’t dare to know about it.</p>
+
+<p>⎿  API Error: 400 {“type”:”error”,”error”:{“type”:”invalid_request_error”,”message”:”Output blocked by content filtering policy”},”request_id”:”req_011CYJbjEgYiN229GuyQvXkz”}</p>
+
+<p>❯ Alan:</p>
+<blockquote>
+  <p>I hope you threw a brick right into that stained glass</p>
+
+  <p>I hope you’re with someone who isn’t scared to ask</p>
+
+  <p>I hope that you’re not losing sleep about what’s next</p>
+
+  <p>Or about your soul and what He might do with it</p>
+</blockquote>
+
+<p>Here we see stronger evidence of religious trauma, with the mention of stained glass, but I think even then it’s ambiguous. Yea it could be standing up to abusers, but glass is also just an invisible divider that isolates you. I think the next line about being “with somemone who isn’t afraid to ask” supports that interpretation. The speaker hopes the friend has someone braver to be there for them and share the burden and help them avoid the worst outcome</p>
+
+<p>● Claude:  That reframes the whole bridge. “Brave enough to go” then isn’t about death — it’s about the speaker’s unwillingness to follow their friend into that darkness. The friend found a way to escape the unbearable, however destructive, and the speaker stayed on the surface. Couldn’t or wouldn’t go there with them.</p>
+
+<p>And the stained glass reading as barrier is interesting — not just a church window but the kind of thing that looks transparent, lets light through, but actually separates you from what’s on the other side. You can see through it but you can’t reach through it.</p>
+
+<p>“Someone who isn’t scared to ask” lands as the speaker’s quiet admission of their own failure — the thing they never did, the question they never asked. It’s not accusatory, it’s almost a blessing: I hope you found someone better at this than I was.</p>
+
+<p>We’ve been through the whole song now. Before we think about shaping this into a post — one last question: what’s the thing you keep coming back to? If you had to say what this song is about in a sentence — not a summary, but the emotional core — what would you say?</p>
+
+<p>❯ Alan: I think it’s an apology at the emotional core. I keep coming back to only hearing the bass in the song. I think that’s really relatable, to be self-absorbed and miss the calls for help from people around you. I get the sense that the speaker gained maturity, and with that came cosncience and guilt. That too is vaguely religious. The fruit of knowledge resulting in shame.</p>
+
+<p>● Claude:  That’s the center of it. And the fruit of knowledge / shame connection is beautiful — the speaker didn’t know then, and ignorance was a kind of innocence. Now he knows, and knowing is its own punishment. He can’t un-hear the bass line.</p>
+
+<p>The apology framing also explains why the song doesn’t confront the friend directly. It’s not addressed to them — it’s addressed about them, to no one in particular. Because the person he’d apologize to is unreachable, either through distance, drugs, estrangement, or something worse. The “I hope you…” structure only makes sense if he can’t just tell them.</p>]]></content><author><name></name></author><category term="musings" /><summary type="html"><![CDATA[A conversation with Claude about Noah Kahan's "The Great Divide" — guilt, missed signals, and only hearing the bass.]]></summary></entry><entry><title type="html">Why Get Married?</title><link href="https://blog.alanch.am/2026/01/26/why-get-married.html" rel="alternate" type="text/html" title="Why Get Married?" /><published>2026-01-26T06:55:34+00:00</published><updated>2026-01-26T06:55:34+00:00</updated><id>https://blog.alanch.am/2026/01/26/why-get-married</id><content type="html" xml:base="https://blog.alanch.am/2026/01/26/why-get-married.html"><![CDATA[<p><span class="tagline">The reasons that resonate with me.
 </span></p>
 
 <p>You don’t need to be married to:</p>
@@ -36,12 +280,12 @@
 
 <hr />
 
-<p>For me, these are the reasons that resonate.</p>]]></content><author><name></name></author><category term="musings" /><summary type="html"><![CDATA[The reasons that resonate with me.]]></summary></entry><entry><title type="html">Signing Out of LR for the Last Time</title><link href="https://blog.alanch.am/2021/02/22/five-twenty-three.html" rel="alternate" type="text/html" title="Signing Out of LR for the Last Time" /><published>2021-02-22T05:41:00-08:00</published><updated>2021-02-22T05:41:00-08:00</updated><id>https://blog.alanch.am/2021/02/22/five-twenty-three</id><content type="html" xml:base="https://blog.alanch.am/2021/02/22/five-twenty-three.html"><![CDATA[<p><span class="tagline">Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.
+<p>For me, these are the reasons that resonate.</p>]]></content><author><name></name></author><category term="musings" /><summary type="html"><![CDATA[The reasons that resonate with me.]]></summary></entry><entry><title type="html">Signing Out of LR for the Last Time</title><link href="https://blog.alanch.am/2021/02/22/five-twenty-three.html" rel="alternate" type="text/html" title="Signing Out of LR for the Last Time" /><published>2021-02-22T13:41:00+00:00</published><updated>2021-02-22T13:41:00+00:00</updated><id>https://blog.alanch.am/2021/02/22/five-twenty-three</id><content type="html" xml:base="https://blog.alanch.am/2021/02/22/five-twenty-three.html"><![CDATA[<p><span class="tagline">Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.
 </span></p>
 
 <p>At 5:23 PM in my local time, all my GSuite accounts logged me out of open sessions. GitHub deleted all my forks of private repos in the org. Except for mailing back my laptop, everything is wrapped up.</p>
 
-<p>This is it; farewell for now, good friends!</p>]]></content><author><name></name></author><category term="other" /><summary type="html"><![CDATA[Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.]]></summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html"><![CDATA[<p><span class="tagline">The joke goes as follows.<br /><br /> Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.
+<p>This is it; farewell for now, good friends!</p>]]></content><author><name></name></author><category term="other" /><summary type="html"><![CDATA[Today I wrapped up my first job at LR. I said goodbye to my team, whom I will miss very much.]]></summary></entry><entry><title type="html">Risk and Financial Crises</title><link href="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html" rel="alternate" type="text/html" title="Risk and Financial Crises" /><published>2020-10-13T11:14:00+00:00</published><updated>2020-10-13T11:14:00+00:00</updated><id>https://blog.alanch.am/2020/10/13/risk-and-financial-crises</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/risk-and-financial-crises.html"><![CDATA[<p><span class="tagline">The joke goes as follows.<br /><br /> Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.
 </span></p>
 
 <p>In the <a href="https://www.youtube.com/watch?v=QbosMr2JVrc&amp;list=PL8FB14A2200B87185">second lecture</a> of his 2011 Financial Markets course, Yale professor and soon-to-be Nobel Laureate Robert Shiller teaches about the role of probability theory with concrete examples from the Global Financial Crisis (GFC) starting in 2007.</p>
@@ -127,7 +371,7 @@ Covariance describes the relatedness of two random variables.</p>
 
 <p><img src="/assets/img/risk-and-financial-crises/histogram.png" /></p>
 
-<p>Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.</p>]]></content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html"><![CDATA[The joke goes as follows. Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.]]></summary></entry><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T04:14:00-07:00</published><updated>2020-10-13T04:14:00-07:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html"><![CDATA[<p><span class="tagline">Adding LaTeX style math input for your web page is a two-line change.</span></p>
+<p>Independence leads to the law of large numbers, and a certain expectation of stability. But that expectation is only as good as its assumption of independence, and the financial crisis seems to be related to people’s failure to understand the limits of that assumption.</p>]]></content><author><name></name></author><category term="financial-markets" /><category term="robert-shiller" /><summary type="html"><![CDATA[The joke goes as follows. Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.]]></summary></entry><entry><title type="html">Cool Find: MathJax for Web Math</title><link href="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html" rel="alternate" type="text/html" title="Cool Find: MathJax for Web Math" /><published>2020-10-13T11:14:00+00:00</published><updated>2020-10-13T11:14:00+00:00</updated><id>https://blog.alanch.am/2020/10/13/mathjax-for-web-math</id><content type="html" xml:base="https://blog.alanch.am/2020/10/13/mathjax-for-web-math.html"><![CDATA[<p><span class="tagline">Adding LaTeX style math input for your web page is a two-line change.</span></p>
 
 <p>For a <a href="/2020/10/13/risk-and-financial-crises.html">recent post</a> on Financial Markets, I needed a tool to format math equations. There’s a cool library called <a href="https://www.mathjax.org/">MathJax</a> that makes it a breeze. Just add these two lines in your <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> element:</p>
 
@@ -155,7 +399,7 @@ Covariance describes the relatedness of two random variables.</p>
   <li><strong>I mean, just right-click on the equation above and see what I’m talking about! 😮</strong></li>
 </ul>
 
-<p>There is, however, a noticeable amount of latency as the math inputs render.</p>]]></content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html"><![CDATA[Adding LaTeX style math input for your web page is a two-line change.]]></summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T05:39:00-07:00</published><updated>2020-10-05T05:39:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html"><![CDATA[<p><span class="tagline">Using basic elements of programming to compute cube roots.</span></p>
+<p>There is, however, a noticeable amount of latency as the math inputs render.</p>]]></content><author><name></name></author><category term="mathjax" /><category term="code" /><summary type="html"><![CDATA[Adding LaTeX style math input for your web page is a two-line change.]]></summary></entry><entry><title type="html">Cube Roots by Newton’s Method in Lisp</title><link href="https://blog.alanch.am/2020/10/05/newtons-cube-root.html" rel="alternate" type="text/html" title="Cube Roots by Newton’s Method in Lisp" /><published>2020-10-05T12:39:00+00:00</published><updated>2020-10-05T12:39:00+00:00</updated><id>https://blog.alanch.am/2020/10/05/newtons-cube-root</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/newtons-cube-root.html"><![CDATA[<p><span class="tagline">Using basic elements of programming to compute cube roots.</span></p>
 
 <p>Chapter §1.1 of SICP covers some basic elements of programming. In this selected exercise 1.8, we use Newton’s Method and some of those elements to calculate cube roots.</p>
 
@@ -220,7 +464,7 @@ Covariance describes the relatedness of two random variables.</p>
 <h1 id="reference">Reference</h1>
 <p>The following link is a paid advertisement.</p>
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=acham1-20&amp;language=en_US&amp;marketplace=amazon&amp;region=US&amp;placement=0262510871&amp;asins=0262510871&amp;linkId=a6ace59defa13d2687dc99294fc2ba8b&amp;show_border=true&amp;link_opens_in_new_window=true"></iframe>]]></content><author><name></name></author><category term="sicp" /><category term="lisp" /><summary type="html"><![CDATA[Using basic elements of programming to compute cube roots.]]></summary></entry><entry><title type="html">45-Degree Drill Press Jig</title><link href="https://blog.alanch.am/2020/10/05/45-jig.html" rel="alternate" type="text/html" title="45-Degree Drill Press Jig" /><published>2020-10-05T03:02:00-07:00</published><updated>2020-10-05T03:02:00-07:00</updated><id>https://blog.alanch.am/2020/10/05/45-jig</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/45-jig.html"><![CDATA[<p><span class="tagline">An incremental improvement in safety and efficiency when drilling angled holes.</span></p>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=acham1-20&amp;language=en_US&amp;marketplace=amazon&amp;region=US&amp;placement=0262510871&amp;asins=0262510871&amp;linkId=a6ace59defa13d2687dc99294fc2ba8b&amp;show_border=true&amp;link_opens_in_new_window=true"></iframe>]]></content><author><name></name></author><category term="sicp" /><category term="lisp" /><summary type="html"><![CDATA[Using basic elements of programming to compute cube roots.]]></summary></entry><entry><title type="html">45-Degree Drill Press Jig</title><link href="https://blog.alanch.am/2020/10/05/45-jig.html" rel="alternate" type="text/html" title="45-Degree Drill Press Jig" /><published>2020-10-05T10:02:00+00:00</published><updated>2020-10-05T10:02:00+00:00</updated><id>https://blog.alanch.am/2020/10/05/45-jig</id><content type="html" xml:base="https://blog.alanch.am/2020/10/05/45-jig.html"><![CDATA[<p><span class="tagline">An incremental improvement in safety and efficiency when drilling angled holes.</span></p>
 
 <p>As I ramped up production on the hair ties, I began to think about improving my process. The wood cubes are small pieces, difficult to control firmly between fingers in the absence of leverage.</p>
 
@@ -259,7 +503,7 @@ Covariance describes the relatedness of two random variables.</p>
 
 <p>I’ll still need a more serious jig to do more precise holes at scale, but this was all right for now. I was able to produce another small batch of hair ties in oak this weekend, with a less overhead.</p>
 
-<p><img src="/assets/img/45-jig/45-jig-product.jpg" /></p>]]></content><author><name></name></author><category term="woodworking" /><summary type="html"><![CDATA[An incremental improvement in safety and efficiency when drilling angled holes.]]></summary></entry><entry><title type="html">From Chair to Hair (Tie)</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair (Tie)" /><published>2020-09-20T03:24:30-07:00</published><updated>2020-09-20T03:24:30-07:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html"><![CDATA[<p><span class="tagline">Carving up a big old chair into smaller goodies.</span></p>
+<p><img src="/assets/img/45-jig/45-jig-product.jpg" /></p>]]></content><author><name></name></author><category term="woodworking" /><summary type="html"><![CDATA[An incremental improvement in safety and efficiency when drilling angled holes.]]></summary></entry><entry><title type="html">From Chair to Hair (Tie)</title><link href="https://blog.alanch.am/2020/09/20/wood-cube.html" rel="alternate" type="text/html" title="From Chair to Hair (Tie)" /><published>2020-09-20T10:24:30+00:00</published><updated>2020-09-20T10:24:30+00:00</updated><id>https://blog.alanch.am/2020/09/20/wood-cube</id><content type="html" xml:base="https://blog.alanch.am/2020/09/20/wood-cube.html"><![CDATA[<p><span class="tagline">Carving up a big old chair into smaller goodies.</span></p>
 
 <p>I had some 70s era chairs from a garage sale purchase, just a couple months ago. But they were in poor condition; for example, the leather had not been conditioned, the dry straps cracking or snapped in places. They hogged space in the shop (garage) too, just gathering sawdust.</p>
 
@@ -320,7 +564,7 @@ Covariance describes the relatedness of two random variables.</p>
 
 <p>Compared to home furniture, I had fun making these basic cubes; plus I now have a proof of concept for reusing lumber from the chairs.</p>
 
-<p>I look forward to trying the cubes again soon, and then moving on to other project ideas with the salvaged lumber.</p>]]></content><author><name></name></author><category term="woodworking" /><summary type="html"><![CDATA[Carving up a big old chair into smaller goodies.]]></summary></entry><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T02:45:14-07:00</published><updated>2020-09-18T02:45:14-07:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html"><![CDATA[<p><span class="tagline">Suppose we want to compute the md5, sha1, and sha256 sums for some string “Foo Bar”. What’s wrong with this routine?</span></p>
+<p>I look forward to trying the cubes again soon, and then moving on to other project ideas with the salvaged lumber.</p>]]></content><author><name></name></author><category term="woodworking" /><summary type="html"><![CDATA[Carving up a big old chair into smaller goodies.]]></summary></entry><entry><title type="html">Spot the Bug: Golang Hashes</title><link href="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html" rel="alternate" type="text/html" title="Spot the Bug: Golang Hashes" /><published>2020-09-18T09:45:14+00:00</published><updated>2020-09-18T09:45:14+00:00</updated><id>https://blog.alanch.am/2020/09/18/spot-the-bug-hashes</id><content type="html" xml:base="https://blog.alanch.am/2020/09/18/spot-the-bug-hashes.html"><![CDATA[<p><span class="tagline">Suppose we want to compute the md5, sha1, and sha256 sums for some string “Foo Bar”. What’s wrong with this routine?</span></p>
 
 <h1 id="problem">Problem</h1>
 
@@ -482,7 +726,7 @@ Covariance describes the relatedness of two random variables.</p>
 
 <p>If you’re a meticulous, hawk-eyed reader of the docs, then you’ll likely have found this exercise pretty silly. But I sometimes tend to skim the details, especially when the function names look <em>so</em> very self-explanatory and simple. For example, <code class="language-plaintext highlighter-rouge">Sum([]byte) []byte</code> on a hash interface.</p>
 
-<p>In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.</p>]]></content><author><name></name></author><category term="golang" /><category term="code" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html"><![CDATA[Suppose we want to compute the md5, sha1, and sha256 sums for some string "Foo Bar". What's wrong with this routine?]]></summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T09:57:14-07:00</published><updated>2020-08-16T09:57:14-07:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html"><![CDATA[<p><span class="tagline">They’re powerful and easy to use, but be careful when comparing their string representations.</span></p>
+<p>In dev work as in life, humbling mistakes like these can be a helpful reminder for me to be careful and check my assumptions more thoroughly, especially when working with something new.</p>]]></content><author><name></name></author><category term="golang" /><category term="code" /><category term="md5" /><category term="sha1" /><category term="sha256" /><category term="hash" /><summary type="html"><![CDATA[Suppose we want to compute the md5, sha1, and sha256 sums for some string "Foo Bar". What's wrong with this routine?]]></summary></entry><entry><title type="html">Being Careful With UUID Comparisons</title><link href="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html" rel="alternate" type="text/html" title="Being Careful With UUID Comparisons" /><published>2020-08-16T16:57:14+00:00</published><updated>2020-08-16T16:57:14+00:00</updated><id>https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons</id><content type="html" xml:base="https://blog.alanch.am/2020/08/16/being-careful-with-uuid-comparisons.html"><![CDATA[<p><span class="tagline">They’re powerful and easy to use, but be careful when comparing their string representations.</span></p>
 
 <h1 id="background">Background</h1>
 <p>UUIDs are useful – the id space is large enough that, if ids are generated by some standard algorithm, they are effectively <em>globally</em> unique. In AdTech, for example, mobile device identifiers are commonly implemented as UUID. They can then be guaranteed unique across all devices but still be reset locally without updating some remote, central registry.</p>
@@ -579,4 +823,4 @@ Covariance describes the relatedness of two random variables.</p>
 
 <p>In practice, if the UUIDs you process are sourced from the same origin, they’ll mostly likely be consistent in representation (exclusively using upper case or exclusively using lower case). So even if you goof and introduce a potential bug through a naive UUID comparison, you would probably get away unscathed.</p>
 
-<p>But if the UUIDs you process are sourced from multiple origins, then handling the UUIDs more robustly just might save your butt. After all, one cannot take for granted that a representation being valid and canonical means there are no practical variations to be checked and controlled against.</p>]]></content><author><name></name></author><category term="uuid" /><category term="idfa" /><category term="aaid" /><category term="golang" /><category term="code" /><summary type="html"><![CDATA[They're powerful and easy to use, but be careful when comparing their string representations.]]></summary></entry><entry><title type="html">Welcome!</title><link href="https://blog.alanch.am/2020/08/05/welcome.html" rel="alternate" type="text/html" title="Welcome!" /><published>2020-08-05T01:58:14-07:00</published><updated>2020-08-05T01:58:14-07:00</updated><id>https://blog.alanch.am/2020/08/05/welcome</id><content type="html" xml:base="https://blog.alanch.am/2020/08/05/welcome.html"><![CDATA[<p>Hello world! Let’s have some fun – Liquid templating looks pretty neat : )</p>]]></content><author><name></name></author><category term="jekyll" /><category term="ruby" /><category term="other" /><category term="liquid" /><summary type="html"><![CDATA[Hello world! Let’s have some fun – Liquid templating looks pretty neat : )]]></summary></entry></feed>
+<p>But if the UUIDs you process are sourced from multiple origins, then handling the UUIDs more robustly just might save your butt. After all, one cannot take for granted that a representation being valid and canonical means there are no practical variations to be checked and controlled against.</p>]]></content><author><name></name></author><category term="uuid" /><category term="idfa" /><category term="aaid" /><category term="golang" /><category term="code" /><summary type="html"><![CDATA[They're powerful and easy to use, but be careful when comparing their string representations.]]></summary></entry></feed>
