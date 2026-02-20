@@ -43,7 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 I asked Claude to walk me through "The Great Divide" by Noah Kahan verse by verse, with it asking questions and me interpreting. What follows is the transcript, unedited.
 
+<div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRzEvqbrn2c?si=stp0pK5oqClIwtpb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ---
 
