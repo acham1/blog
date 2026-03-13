@@ -5,7 +5,7 @@ date: 2020-10-13 04:14:00 -0700
 excerpt: >
     The joke goes as follows.<br><br>
     Why do mathematicians believe everything is normally distributed? Because applied scientists say so. And why do applied scientists believe it? Because mathematicians proved it.
-tags: financial-markets robert-shiller
+tags: [financial markets, Robert Shiller]
 ---
 
 <span class='tagline'>{{ page.excerpt }}</span>

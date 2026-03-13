@@ -18,27 +18,6 @@ url: https://blog.alanch.am
 # Display
 show_excerpts: true
 
-# Organization
-epics:
-  # - display: Linear Algebra
-  #   tag: linear-algebra
-  # - display: UNIX
-  #   tag: unix
-  # - display: Domain-Driven Design
-  #   tag: domain-driven-design
-  - display: Structure and Interpretation of Computer Programs (SICP)
-    tag: sicp
-  - display: Code
-    tag: code
-  - display: Woodworking
-    tag: woodworking
-  - display: Financial Markets
-    tag: financial-markets
-  - display: Musings
-    tag: musings
-  - display: Other
-    tag: other
-
 # Comments
 giscus: true
 
